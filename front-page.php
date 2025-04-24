@@ -172,6 +172,20 @@
       </div>
     </div>
   </section>
+
+
+
+  <section class="section__trouble">
+        <h3 class="section__trouble__h3">こんな<span class="orange">お困り</span><br class="sp-br">ありませんか</h3>
+        <div class="section__trouble__wrap p">
+          <div class="section__trouble__text text1">働きたいけど<br class="pc-br">何からすればいい？</div>
+          <div class="section__trouble__text text2">働いても<br class="pc-br">長く続かない</div>
+          <div class="section__trouble__text text3">面接でうまく<br class="pc-br">説明できない...</div>
+          <div class="section__trouble__text text4">診断名を就職先に<br class="pc-br">伝えた方がいい？</div>
+          <div class="section__trouble__text text5">体調が<br class="pc-br">安定しない...</div>
+          <div class="section__trouble__img"><img class="img2" src="img/trouble.png" alt=""></div>
+        </div>
+      </section>
   <!-- /#service.home_sec -->
 
 
