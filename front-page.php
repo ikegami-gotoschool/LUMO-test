@@ -314,68 +314,6 @@
   </section>
   <!-- /#flow.home_sec -->
 
-  <section class="home_sec homeFaq" id="faq">
-    <div class="homeFaq_point _point1 pointbar">
-      <div class="pointbar_bar"></div>
-      <div class="pointbar_bar _blue"></div>
-    </div>
-    <div class="inner">
-      <div class="homeFaq_inner">
-        <h2 class="heading _sec _entitle _blue homeFaq_heading" data-entitle="FAQ"><span class="heading_text">よくある質問</span></h2>
-
-        <div class="homeFaq_content">
-          <dl class="homeFaq_list faqList _blue">
-            <div class="homeFaq_item faqList_item faqItem">
-              <dt class="faqItem_q">月額費用はかかりますか？</dt>
-              <dd class="faqItem_a">
-                <div class="faqItem_body">
-                  <p class="faqItem_text text">ほとんどの方が無料で通えます。詳しく知りたい方はお気軽にご相談下さい。</p>
-                </div>
-              </dd>
-            </div>
-            <div class="homeFaq_item faqList_item faqItem">
-              <dt class="faqItem_q">どのくらいの期間通えますか？　</dt>
-              <dd class="faqItem_a">
-                <div class="faqItem_body">
-                  <p class="faqItem_text text">就労移行支援は原則として2年間通所可能です。<br>※状況により1年間の延長（最長3年間）も可能となります。また、就労継続支援A型について期限の制限はありません。</p>
-                </div>
-              </dd>
-            </div>
-            <div class="homeFaq_item faqList_item faqItem">
-              <dt class="faqItem_q">誰でも通うことができますか？</dt>
-              <dd class="faqItem_a">
-                <div class="faqItem_body">
-                  <p class="faqItem_text text">原則として下記の方が対象となります。</p>
-                  <h3 class="faqItem__subtitle">就労移行支援</h3>
-                  <p class="faqItem_text text">・18歳以上、65歳未満<br>
-                    ・障害者手帳を持っている<br>
-                    ・一般企業への就職を希望している<br>
-                    ・支援によって就職が可能 </p>
-
-                  <h3 class="faqItem__subtitle">就労継続支援A型</h3>
-                  <p class="faqItem_text text">・18歳以上65歳未満<br>
-                    ・障害者手帳を持っている<br>
-                    ・一般企業への就職が不安または困難
-                  </p>
-                </div>
-              </dd>
-            </div>
-            <div class="homeFaq_item faqList_item faqItem">
-              <dt class="faqItem_q">利用期間中に副業やアルバイトをすることは可能ですか？</dt>
-              <dd class="faqItem_a">
-                <div class="faqItem_body">
-                  <p class="faqItem_text text">就労移行支援および就労継続支援A型は一般就労が困難な方が利用するサービスとなっているため、原則として認められていません。</p>
-                </div>
-              </dd>
-            </div>
-          </dl>
-          <p class="homeFaq_button _s button _blue _bar js-button"><a href="<?php echo esc_url(home_url('/')); ?>faq/" class="button_link"><span class="origin">一覧を見る</span></a></p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- /#faq.home_sec homeFaq -->
-
 
 
 
