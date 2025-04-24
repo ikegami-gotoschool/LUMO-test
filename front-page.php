@@ -183,7 +183,9 @@
           <div class="section__trouble__text text3">面接でうまく<br class="pc-br">説明できない...</div>
           <div class="section__trouble__text text4">診断名を就職先に<br class="pc-br">伝えた方がいい？</div>
           <div class="section__trouble__text text5">体調が<br class="pc-br">安定しない...</div>
-          <div class="section__trouble__img"><img class="img2" src="img/trouble.png" alt=""></div>
+          <div class="section__trouble__img">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/renovation/trouble.png" alt="">
+        </div>
         </div>
       </section>
   <!-- /#service.home_sec -->
