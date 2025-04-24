@@ -273,6 +273,40 @@
           </li>
         </ol>
       </section>
+            <!-- ---------------店舗情報--------------- -->
+      <section class="pageService__therapy pageService__info">
+        <div class="inner pageService__therapy__inner">
+          <h2 class="pageServiceAbout_heading heading _m _center _bar">店舗情報</h2>
+          <div class="pageService__info__wrap">
+            <div class="pageService__info__wrapper">
+              <table class="pageService__info__table">
+                <tr class="pageService__info__tr">
+                  <th class="pageService__info__th">アクセス</th>
+                  <td class="pageService__info__td">大阪府大阪市阿倍野区天王寺町南2-1-6<br>ヴェルデ阿倍野1F</td>
+                </tr>
+                <tr class="pageService__info__tr">
+                  <th class="pageService__info__th">電話番号</th>
+                  <td class="pageService__info__td">060-6770-5283</td>
+                </tr>
+                <tr class="pageService__info__tr">
+                  <th class="pageService__info__th">営業時間</th>
+                  <td class="pageService__info__td">10:00~16:00</td>
+                </tr>
+                <tr class="pageService__info__tr">
+                  <th class="pageService__info__th">定休日</th>
+                  <td class="pageService__info__td">日・祝・年末年始</td>
+                </tr>
+              </table>
+            </div>
+            <div class="pageService__info__map">
+              <iframe class="pageService__info__map__inner"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13129.684019672377!2d135.5224167!3d34.6440692!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000dd9626c7bc1f%3A0xadd9ab415dbe331e!2z5bCx5Yq056e76KGM5pSv5o-05LqL5qWt5omAIExVTU_vvIsg6Zi_5YCN6YeO!5e0!3m2!1sja!2sjp!4v1724395045589!5m2!1sja!2sjp"
+                width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
   <!-- /#service.home_sec -->
 
 
