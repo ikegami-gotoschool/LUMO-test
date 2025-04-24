@@ -7,19 +7,6 @@
       <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/about/mv_img.png" alt="真剣な表情で講義を受ける男性">
     </picture>
 
-    <div class="mv_content">
-      <h1 class="mv_heading" data-entitle="ABOUT">LUMO+とは</h1>
-      <p class="mv_subcopy">自分らしく働くサポートをします</p>
-      <p class="mv_text text">ひとりひとりの「できる」を<br class="sp-db">増やす就労支援施設です。</p>
-    </div>
-    <div class="mv_point _point1 pointbar">
-      <div class="pointbar_bar _blue" data-bar1="64"></div>
-      <div class="pointbar_bar _green" data-bar2="41"></div>
-    </div>
-    <div class="mv_point _point2 pointbar">
-      <div class="pointbar_bar _green" data-bar4="122"></div>
-      <div class="pointbar_bar _blue" data-bar3="42"></div>
-    </div>
   </div>
   <!-- /.mv pageAbout_mv -->
 
