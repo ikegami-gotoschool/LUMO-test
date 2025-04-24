@@ -233,7 +233,10 @@
           <li class="section__contract__li">
             <div class="section__contract__icon">
               <div class="section__contract__icon__number green fw500">STEP02</div>
-              <div class="section__contract__icon__img"><img class="img" src="img/contract2.png" alt=""></div>
+              <div class="section__contract__icon__img">
+                <img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/renovation/contract2.png" alt="">
+
+              </div>
             </div>
             <div class="section__contract__content">
               <div class="section__contract__content__h3 fw600 nowrap">施設見学</div>
@@ -244,7 +247,9 @@
           <li class="section__contract__li">
             <div class="section__contract__icon">
               <div class="section__contract__icon__number green fw500">STEP03</div>
-              <div class="section__contract__icon__img"><img class="img" src="img/contract3.png" alt=""></div>
+              <div class="section__contract__icon__img">
+                <img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/renovation/contract3.png" alt="">
+              </div>
             </div>
             <div class="section__contract__content">
               <div class="section__contract__content__h3 fw600 nowrap">3Days体験</div>
@@ -255,7 +260,10 @@
           <li class="section__contract__li">
             <div class="section__contract__icon">
               <div class="section__contract__icon__number green fw500">STEP04</div>
-              <div class="section__contract__icon__img"><img class="img" src="img/contract4.png" alt=""></div>
+              <div class="section__contract__icon__img">
+                <img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/renovation/contract4.png" alt="">
+
+              </div>
             </div>
             <div class="section__contract__content">
               <div class="section__contract__content__h3 fw600 nowrap">契約手続き</div>
