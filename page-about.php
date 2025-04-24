@@ -54,7 +54,9 @@
 
 
     <section class="section__about">
-                <h2 class="section__about__h2"><img class="img" src="img/logo.png" alt=""></h2>
+                <h2 class="section__about__h2">
+                  <img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/renovation/logo.png" alt="">
+                </h2>
                 <h3 class="section__about__h3 fw600">LUMO＋（ルーモプラス）は<br>
                     あたなの「できる」を増やして、<br>
                     自分らしく働くためにサポートします。</h3>
