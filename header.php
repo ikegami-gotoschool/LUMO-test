@@ -39,7 +39,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               class="globalnav_link">就労移行支援</a>
             <div class="globalnav_list__sub__content">
               <ul class="globalnav_list__sub__inner">
-                <li class="globalnav_listitem__sub"><a href="<?php echo esc_url(home_url('/')); ?>transition-support/">LUMO＋の就労移行支援とは</a></li>
+                <li class="globalnav_listitem__sub"><a href="<?php echo esc_url(home_url('/')); ?>program/">プログラム</a></li>
                 <li class="globalnav_listitem__sub"><a href="<?php echo esc_url(home_url('/')); ?>user/">こんな方が利用しています</a></li>
                 <li class="globalnav_listitem__sub"><a href="<?php echo esc_url(home_url('/')); ?>therapy/">LUMO＋の運動療法</a></li>
                 <li class="globalnav_listitem__sub"><a href="<?php echo esc_url(home_url('/')); ?>abeno/">事業所のご案内</a></li>

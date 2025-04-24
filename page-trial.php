@@ -29,7 +29,87 @@
     <!-- /.pageAbout_lead -->
 
 
+    <section class="section__step">
+      <h2 class="pageServiceAbout_heading heading _m _center _bar">一歩踏み出して、お問い合わせください</h2>
+      <p class="p fp">LUMO＋では随時、ご見学、ご相談を承っています。また、実際のプログラムを体験することも可能です。ご家族や支援者の方も同伴いただけますので、お気軽にお問い合わせください。</p>
 
+      <!-- アコーディオン練習引用 -->
+      <div class="accordion">
+        <div class="accordion__item">
+          <button class="accordion__header">
+            就職に関するご相談
+            <span class="accordion__icon">
+              <span class="accordion__line accordion__line--horizontal"></span>
+              <span class="accordion__line accordion__line--vertical"></span>
+            </span>
+          </button>
+          <div class="accordion__content">
+            <ul class="check__ul">
+              <li class="check__li">仕事が長続きしない</li>
+              <li class="check__li">ブランクが長く次が不安</li>
+              <li class="check__li">障がいや特性の職場への開示についての不安</li>
+              <li class="check__li">どんなスキルが必要とされているか知りたい</li>
+              <li class="check__li">自分に合った職場や仕事を探したい</li>
+            </ul>
+          </div>
+        </div>
+        <div class="accordion__item">
+          <button class="accordion__header">
+            対人トラブルに関するご相談
+            <span class="accordion__icon">
+              <span class="accordion__line accordion__line--horizontal"></span>
+              <span class="accordion__line accordion__line--vertical"></span>
+            </span>
+          </button>
+          <div class="accordion__content">
+            <ul class="check__ul">
+              <li class="check__li">対人関係でトラブルが起きたことがある</li>
+              <li class="check__li">人と話すときに緊張してしまう</li>
+              <li class="check__li">対人関係のストレスをいつも感じる</li>
+              <li class="check__li">感情をコントロールすることを身に付けたい</li>
+              <li class="check__li">予定の管理が苦手</li>
+            </ul>
+          </div>
+        </div>
+        <div class="accordion__item">
+          <button class="accordion__header">
+            体調や運動に関するご相談
+            <span class="accordion__icon">
+              <span class="accordion__line accordion__line--horizontal"></span>
+              <span class="accordion__line accordion__line--vertical"></span>
+            </span>
+          </button>
+          <div class="accordion__content">
+            <ul class="check__ul">
+              <li class="check__li">生活リズムを整えたい</li>
+              <li class="check__li">仕事ができる体力とその安定を達成したい</li>
+              <li class="check__li">運動でストレス管理ができるようになりたい</li>
+              <li class="check__li">LUMO＋でどんな運動をするのか知りたい</li>
+              <li class="check__li">運動の効果に関する説明を受けたい</li>
+            </ul>
+          </div>
+        </div>
+        <div class="accordion__item">
+          <button class="accordion__header">
+            プログラムについてのご質問
+            <span class="accordion__icon">
+              <span class="accordion__line accordion__line--horizontal"></span>
+              <span class="accordion__line accordion__line--vertical"></span>
+            </span>
+          </button>
+          <div class="accordion__content">
+            <ul class="check__ul">
+              <li class="check__li">どんなサポートがあるのかを知りたい</li>
+              <li class="check__li">どんなスキルを習得できるのかを知りたい</li>
+              <li class="check__li">体験や見学について案内を受けたい</li>
+              <li class="check__li">利用方法についての相談をしたい</li>
+              <li class="check__li">プログラム全体の説明を受けたい</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- アコーディオン練習ここまで -->
+    </section>
     <section class="section__program">
       <h2 class="pageServiceAbout_heading heading _m _center _bar">運動を取り入れた独自のスキル特化型プログラム</h2>
       <p class="p section__program__p">
