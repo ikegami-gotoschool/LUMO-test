@@ -24,29 +24,7 @@
   <!-- /.mv pageAbout_mv -->
 
   <div class="pageAbout_content page_content">
-    <section class="pageAboutLead">
-      <div class="inner">
-        <div class="pageAboutLead_inner">
-          <div class="pageAboutLead_img"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/about/lead_img.jpg" alt="ペンとノートを手に勉強をしている様子と微笑む女性"></div>
-          <div class="pageAboutLead_body">
-            <h2 class="pageAboutLead_headeing heading _m">あきらめを、<br>チャレンジの一歩に。</h2>
-            <p class="ppageAboutLead_text text">
-              就労支援施設LUMO+では<br>
-              さまざまな要因で思い通りに<br class="sp-db">働くことができない人へ<br>
-              <span class="color _green">働く力・場所・やりがい</span>を提供します。<br>
-              障がいによってあきらめていた事や<br>
-              仕事に対する思いを、<br class="sp-db">新しいチャレンジの一歩に変える<br>
-              お手伝いをさせていただきます。
-            </p>
-          </div>
 
-        </div>
-      </div>
-      <div class="pageAboutLead_point _point1 pointbar">
-        <div class="pointbar_bar _blue"></div>
-        <div class="pointbar_bar _green"></div>
-      </div>
-    </section>
     <!-- /.pageAbout_lead -->
 
 
@@ -392,49 +370,8 @@
   </div>
   <!-- /.homeLoop -->
 
-    <section class="pageAboutTrouble">
-      <div class="inner">
-        <h2 class="pageAboutTrouble_heading"><span>こんな<span class="color _blue">お悩み</span><br class="sp-db">ありませんか？</span></h2>
-        <ul class="pageAboutTroule_list list _card _blue">
-          <li class="list_item">うつ病など、心の調子がよくない</li>
-          <li class="list_item">ひきこもりがちになっている</li>
-          <li class="list_item">一度働いたがうまくいかなかった</li>
-          <li class="list_item">障がいや病気で働くことが難しい</li>
-          <li class="list_item">対人関係で問題をかかえている</li>
-          <li class="list_item">働くことで居場所を作りたい</li>
-        </ul>
-      </div>
-    </section>
-    <!-- /.pageAboutTrouble -->
 
-    <section class="pageAboutSupport">
-      <div class="pageAboutSupport_point _point1 pointbar">
-        <div class="pointbar_bar _green"></div>
-        <div class="pointbar_bar _blue"></div>
-      </div>
-      <div class="pageAboutSupport_point _point2 pointbar">
-        <div class="pointbar_bar _blue"></div>
-        <div class="pointbar_bar _green"></div>
-      </div>
-      <div class="inner">
-        <h2 class="heading _m _sub _bar pageAboutSupport_heading _center"><span class="heading_text color _green">できることをひとつずつ増やして、</span>自分らしく<br class="sp-db">働くサポートをします</h2>
 
-        <div class="pageAboutSupport_inner">
-          <div class="pageAboutSupport_body">
-            <h2 class="pageAboutSupport_headeing heading _sub">ITスキルの習得と体調管理の<br>２方面からサポート</h2>
-            <p class="pageAboutSupport_text text">
-              LUMO+では、ITスキルなどのスキル習得プログラムと、働く上で欠かせない体調管理や体力向上を目的とした運動プログラムを用意しています。<br>また、支援員がひとりひとりの特性に向き合って支援計画を立てるため、無理なくできることを増やすことができます。
-            </p>
-          </div>
-          <div class="pageAboutSupport_img"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/about/support_img.png" alt="就労支援の面談をする支援員の女性と相談者の女性"></div>
-        </div>
-      </div>
-      <p class="cta_button button _primary _bar _l js-button"><a href="<?php echo esc_url(home_url('/')); ?>contact/" class="button_link"><span class="origin">ご相談はこちら</span></a></p>
-
-    </section>
-    <!-- /.pageAboutSupport -->
-
-    <!-- /.pageAboutMessage -->
 
 
   </div>
