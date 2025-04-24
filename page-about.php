@@ -86,7 +86,9 @@
               無理のないペースで通所を始めましょう。LUMO＋では「運動でカラダの状態を調える」ことで「ビジネス基礎・応用スキルの習得」をスムーズにし、希望に合わせて「デザインスキル」まで習得できます。
             </p>
           </div>
-          <div class="section__usage__img"><img class="img" src="img/usage1.jpg" alt=""></div>
+          <div class="section__usage__img">
+            <img class="img" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/renovation/usage1.jpg" alt="">
+          </div>
         </li>
         <li class="section__usage__li">
           <div class="section__usage__content">
@@ -96,7 +98,9 @@
               生活リズムを少しずつ整えて安定して通うことが就職の大きな一歩になります。日常的な運動を取り入れて生活リズムを整えながら、自己理解を深め、スキルアップを徹底的にサポートします。
             </p>
           </div>
-          <div class="section__usage__img"><img class="img" src="img/usage2.jpg" alt=""></div>
+          <div class="section__usage__img">
+            <img class="img" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/renovation/usage2.jpg" alt="">
+          </div>
         </li>
         <li class="section__usage__li">
           <div class="section__usage__content">
@@ -106,7 +110,9 @@
               トレーニングを通じて着実にスキルや強みに出会い、それを活かせる職場を探します。本人の希望も重視しながら応募書類の作成や面接練習、企業見学などの準備を行います。
             </p>
           </div>
-          <div class="section__usage__img"><img class="img" src="img/usage3.jpeg" alt=""></div>
+          <div class="section__usage__img">
+            <img class="img" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/renovation/usage3.jpeg" alt="">
+          </div>
         </li>
         <li class="section__usage__li">
           <div class="section__usage__content">
@@ -115,7 +121,9 @@
             <p class="p">就職決定後もサポートが続きます。職場の企業や関係機関、スタッフと連携しながら長く継続して働きやすい環境を一緒に考えます。困りごとの相談もお任せください。
             </p>
           </div>
-          <div class="section__usage__img"><img class="img" src="img/usage4.JPG" alt=""></div>
+          <div class="section__usage__img">
+            <img class="img" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/renovation/usage4.JPG" alt="">
+          </div>
         </li>
       </ol>
       <div class="cva">
@@ -168,115 +176,6 @@
     </section>
     <!-- /.pageAboutSupport -->
 
-
-    <section class="pageAboutType">
-      <div class="inner">
-        <h2 class="heading _m _bar pageAboutType_heading _center">
-          <span class="heading_text pc-db">LUMO+では、目的や働き方に応じて</span>
-          <span class="color _green">２種類の<span class="sp-color">就労支援</span></span>を<br class="sp-db">ご用意しています
-        </h2>
-
-        <div class="pageAboutType_list">
-          <div class="listBox pageAboutType_listBox">
-            <ul class="listBox_list list _green">
-              <li class="list_item"> 一般企業に就職したい</li>
-              <li class="list_item">就職で役に立つスキルを身につけたい</li>
-              <li class="list_item">就職活動のサポートをしてほしい</li>
-            </ul>
-            <p class="button _arrow listBox_button"><a href="#transition-support" class="button_link">就労移行支援がおすすめ</a></p>
-          </div>
-          <div class="listBox pageAboutType_listBox">
-            <ul class="listBox_list list _blue">
-              <li class="list_item">一般企業で働くことに不安がある</li>
-              <li class="list_item">サポートがある職場で働きたい</li>
-              <li class="list_item">就労移行支援で雇用に結びつかなかった</li>
-            </ul>
-            <p class="button _arrow listBox_button _blue"><a href="#continuation-support" class="button_link">就労継続支援がおすすめ</a></p>
-          </div>
-        </div>
-
-        <div class="pageAboutType_content aboutService" id="transition-support">
-          <h3 class="aboutService_heading" data-num="01">就労移行支援</h3>
-          <div class="aboutService_box">
-            <h4 class="aboutService_subheading"><span class="color _green">一般企業への就職を目指して</span>ITスキル・体力を身につける</h4>
-
-            <div class="picList aboutService_list">
-              <div class="picList_item">
-                <div class="picList_img"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/about/service01_img01.png" alt="ほほえみながらノートパソコンで楽しそうに仕事をする男性"></div>
-                <p class="picList_heading heading">ITスキル・体力向上の<br>２方面からアプローチ</p>
-                <p class="picList_text text">ITスキルを学ぶプログラムと、長く働く上で欠かせない体力が身につく運動プログラムを用意しています。</p>
-              </div>
-              <div class="picList_item">
-                <div class="picList_img"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/about/service01_img02.png" alt="コミュニケーションスキルについて講義をする支援員の男性"></div>
-                <p class="picList_heading heading">コミュニケーションの悩みを<br>支援員がサポート</p>
-                <p class="picList_text text">対人関係の不安や感情の表現方法などの悩みを支援員がサポート。コミュニケーション方法を学びます。</p>
-              </div>
-              <div class="picList_item">
-                <div class="picList_img"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/about/service01_img03.png" alt="履歴書とボールペン"></div>
-                <p class="picList_heading heading">ひとりひとりの<br>得意を伸ばす支援計画</p>
-                <p class="picList_text text">相談員が定期面談でひとりひとりの特性に向き合い、課題を克服したり得意を伸ばす支援計画を作成します。</p>
-              </div>
-            </div>
-            <p class="aboutService_button button _s _green _bar js-button"><a href="<?php echo esc_url(home_url('/')); ?>transition-support/" class="button_link"><span class="origin">詳しく見る</span></a></p>
-            <div class="aboutService_point _point1 pointbar">
-              <div class="pointbar_bar _blue"></div>
-              <div class="pointbar_bar _green"></div>
-            </div>
-            <div class="aboutService_point _point2 pointbar">
-              <div class="pointbar_bar _blue"></div>
-              <div class="pointbar_bar _green"></div>
-            </div>
-          </div>
-        </div>
-
-        <div class="pageAboutType_content aboutService" id="continuation-support">
-          <h3 class="aboutService_heading _blue" data-num="02">就労継続支援</h3>
-          <div class="aboutService_box">
-            <h4 class="aboutService_subheading"><span class="color _blue">職業訓練の機会を提供</span>サポートのある職場で働く</h4>
-
-            <div class="pageAboutType_picbox">
-              <div class="pageAboutType_img"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/about/service02_img.jpg" alt="お弁当を持ち微笑む女性"></div>
-              <div class="pageAboutType_body">
-                <h4 class="pageAboutType_subtitle">お弁当屋さんで<br>盛り付け・配達補助の仕事</h4>
-                <p class="pageAboutType_text text">LUMO＋の就労継続支援（A型）では、お弁当屋さんで周囲のサポートを受けながら働くことができます。（雇用契約・賃金の支払いあり）お弁当の仕込み、盛り付け、配達補助など、様々な業務を通じて、一般就労に向けた訓練をします。</p>
-              </div>
-            </div>
-
-            <p class="aboutService_button button _s _blue _bar js-button"><a href="<?php echo esc_url(home_url('/')); ?>continuation-support/" class="button_link"><span class="origin">詳しく見る</span></a></p>
-            <div class="aboutService_point _point3 pointbar">
-              <div class="pointbar_bar _green"></div>
-              <div class="pointbar_bar _blue"></div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-      <p class="cta_button button _primary _bar _l js-button"><a href="<?php echo esc_url(home_url('/')); ?>contact/" class="button_link"><span class="origin">ご相談はこちら</span></a></p>
-
-    </section>
-    <!-- /.pageAboutType -->
-
-
-    <section class="pageAboutMessage">
-      <div class="inner">
-        <h2 class="heading _m _sub _bar _center pageAboutMessage_heading">代表メッセージ </h2>
-
-        <div class="pageAboutMessage_content messageBox">
-          <div class="messageBox_body pageAboutMessage_body">
-            <p class="heading _sub messageBox_heading">すべての人が輝ける環境と<br>個々のチカラを引き出す</p>
-            <p class="messageBox_name"><span>CEO / 代表取締役</span>松本 哲</p>
-            <p class="messageBox_text text">「働く環境・働くチカラ・働きがい」をテーマにすべての人にスポットライトが当たる社会を目指してLUMO+を運営しています。残念ながらいまは働きたいという思いに応えられる社会ではありません。LUMO＋を通じて多くの方々が自分らしさと共に笑顔で「人のためになっている」と実感できる社会をつくりたいです。</p>
-            <a href="https://gotoschool.co.jp/" target="_blank" class="messageBox_link link _external">企業サイトを見る</a>
-
-          </div>
-          <picture class="messageBox_img pageAboutMessage_img">
-            <source media="(max-width:768px)" srcset="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/about/ceo_message.jpg">
-            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/about/ceo_message.jpg" alt="株式会社Gotoschool  CEO/代表取締役　松本哲">
-          </picture>
-        </div>
-
-      </div>
-    </section>
     <!-- /.pageAboutMessage -->
 
 
