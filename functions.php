@@ -69,9 +69,14 @@ function mwwpform_wpautop( $has_wpautop, $view_flg ) {
 
 
   // 2025.04改修
-  // CSSで使えるようにテーマのURLをCSS変数として出力
-function add_theme_url_variable_to_root() {
-  $theme_url = get_template_directory_uri();
-  echo "<style>:root { --theme-url: '{$theme_url}'; }</style>";
-}
-add_action('wp_head', 'add_theme_url_variable_to_root');
+  function add_theme_url_variable_to_root() {
+    $theme_url = get_template_directory_uri();
+    echo "<style>
+      :root {
+        --theme-url: '{$theme_url}';
+        --blue-url: '{$theme_url}/assets/img/renovation/blue.png';
+        --check-url: '{$theme_url}/assets/img/renovation/check.png';
+      }
+    </style>";
+  }
+  add_action('wp_head', 'add_theme_url_variable_to_root');
