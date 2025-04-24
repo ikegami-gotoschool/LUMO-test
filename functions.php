@@ -59,3 +59,19 @@ function mwwpform_wpautop( $has_wpautop, $view_flg ) {
   return $has_wpautop;
   }
   add_filter( 'mwform_content_wpautop_mw-wp-form-7', 'mwwpform_wpautop', 10, 2 );
+
+
+
+
+
+
+
+
+
+  // 2025.04改修
+  // CSSで使えるようにテーマのURLをCSS変数として出力
+function add_theme_url_variable_to_root() {
+  $theme_url = get_template_directory_uri();
+  echo "<style>:root { --theme-url: '{$theme_url}'; }</style>";
+}
+add_action('wp_head', 'add_theme_url_variable_to_root');
