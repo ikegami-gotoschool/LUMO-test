@@ -49,6 +49,31 @@
     </section>
     <!-- /.pageAbout_lead -->
 
+
+
+
+
+    <section class="section__about">
+                <h2 class="section__about__h2"><img class="img" src="img/logo.png" alt=""></h2>
+                <h3 class="section__about__h3 fw600">LUMO＋（ルーモプラス）は<br>
+                    あたなの「できる」を増やして、<br>
+                    自分らしく働くためにサポートします。</h3>
+                <p class="mb1em p fw600">一人ひとりの特性やスキルがハツラツと<br>
+                    活かされている社会をつくりたいと考えています。</p>
+                <p class="mb1em p fw600">皆が同じようなスキルで、<br>
+                    同じように働く会社はありません。<br>
+                    個々に違った一面があって、<br>
+                    違ったスキルを持っているからこそ<br>
+                    素晴らしい結果や良いチームが形成されます。</p>
+                <p class="mb1em p fw600">障がいや特性だけで分けず、<br>
+                    一人ひとりと向き合う姿勢は LUMO＋の特徴です。</p>
+                <p class="p fw600">スキルが足りなければ補おう。<br>
+                    一点突破できる強みを見出し磨き込もう。<br>
+                    私たちはLUMO＋に訪れた方々が<br>
+                    光り輝く原点になれるように<br>
+                    いつでも準備をしてお待ちしております。</p>
+            </section>
+
     <section class="pageAboutTrouble">
       <div class="inner">
         <h2 class="pageAboutTrouble_heading"><span>こんな<span class="color _blue">お悩み</span><br class="sp-db">ありませんか？</span></h2>
