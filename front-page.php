@@ -180,18 +180,6 @@
       <h2 class="heading cta_heading"><span class="cta_headingText">あなたに合う<span class="green _pc"><span class="green _sp">支援方法</span>をご提案</span>します</span><span class="pc-dib">まずは</span>お気軽にご相談ください</h2>
       <p class="cta_button button _primary _bar _l js-button"><a href="<?php echo esc_url(home_url('/')); ?>contact/" class="button_link"><span class="origin">ご相談はこちら</span></a></p>
 
-      <div class="cta_banners">
-        <a  href="<?php echo esc_url(home_url('/')); ?>franchise/" class="banner">
-          <div class="banner_body">
-            <p class="banner_heading">フランチャイズ<br class="sp-db">オーナー募集中</p>
-            <p class="banner_text">就労継続支援A型利用者の就労場所「なごみ弁当」の<br class="pc-db">フランチャイズオーナーを募集しています。</p>
-          </div>
-          <picture class="banner_img">
-            <source media="(max-width:768px)" srcset="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/common/banner_img_sp.jpg">
-            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/common/banner_img.jpg" alt="フランチャイズオーナー募集中">
-          </picture>
-        </a>
-      </div>
 
     </div>
     <div class="homeCta_point _point1 pointbar">
