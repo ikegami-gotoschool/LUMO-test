@@ -1,21 +1,11 @@
 <?php get_header(); ?>
 
 <div class="pageAbout">
-  <div class="mv _page pageAbout_mv pageAboutMv">
-    <picture class="mv_thumbnail pageAboutMv">
-      <source media="(max-width:768px)" srcset="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/about/mv_bg_sp.png">
-      <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/about/mv_img.png" alt="真剣な表情で講義を受ける男性">
-    </picture>
 
-  </div>
-  <!-- /.mv pageAbout_mv -->
 
   <div class="pageAbout_content page_content">
 
     <!-- /.pageAbout_lead -->
-
-
-
 
 
     <section class="section__about">
