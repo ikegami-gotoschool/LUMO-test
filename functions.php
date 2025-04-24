@@ -68,16 +68,3 @@ add_filter('mwform_content_wpautop_mw-wp-form-7', 'mwwpform_wpautop', 10, 2);
 
 
 
-// 2025.04改修
-function add_theme_url_variable_to_root()
-{
-  $theme_url = get_template_directory_uri();
-  echo "<style>
-    :root {
-      --theme-url: {$theme_url};
-      --blue-url: {$theme_url}/assets/img/renovation/blue.png;
-      --check-url: {$theme_url}/assets/img/renovation/check.png;
-    }
-  </style>";
-}
-add_action('wp_head', 'add_theme_url_variable_to_root');
