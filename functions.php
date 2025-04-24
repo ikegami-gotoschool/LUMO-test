@@ -31,34 +31,34 @@ function register_my_menu()
  *
  */
 
- function autoback_my_mail( $Mail_raw, $values, $Data ) {
+function autoback_my_mail($Mail_raw, $values, $Data)
+{
 
-  $subject = $Data->get( 'u_subject' );
+  $subject = $Data->get('u_subject');
 
-  if($subject ==  '就労移行支援事業所のご利用について'){
+  if ($subject ==  '就労移行支援事業所のご利用について') {
     $Mail_raw->to = 'lumo-plus.abeno@gotoschoolinc.com';
-
-  }elseif($subject == '就労継続支援A型事業所のご利用について'){
+  } elseif ($subject == '就労継続支援A型事業所のご利用について') {
     $Mail_raw->to = 'gts.nagomi@gotoschoolinc.com';
-
-  }elseif($subject == 'フランチャイズご加盟についてのお問い合わせ・説明会の予約'){
+  } elseif ($subject == 'フランチャイズご加盟についてのお問い合わせ・説明会の予約') {
     $Mail_raw->to = 'gts.nagomi@gotoschoolinc.com';
-  }elseif($subject == 'その他'){
+  } elseif ($subject == 'その他') {
     $Mail_raw->to = 'lumo-plus@gotoschoolinc.com';
   }
 
 
   return $Mail_raw;
 }
-add_filter( 'mwform_admin_mail_mw-wp-form-7', 'autoback_my_mail', 10, 3 );
+add_filter('mwform_admin_mail_mw-wp-form-7', 'autoback_my_mail', 10, 3);
 
-function mwwpform_wpautop( $has_wpautop, $view_flg ) {
-  if ( $view_flg === 'input' || $view_flg === "confirm" ) {
-  return false;
+function mwwpform_wpautop($has_wpautop, $view_flg)
+{
+  if ($view_flg === 'input' || $view_flg === "confirm") {
+    return false;
   }
   return $has_wpautop;
-  }
-  add_filter( 'mwform_content_wpautop_mw-wp-form-7', 'mwwpform_wpautop', 10, 2 );
+}
+add_filter('mwform_content_wpautop_mw-wp-form-7', 'mwwpform_wpautop', 10, 2);
 
 
 
@@ -68,15 +68,16 @@ function mwwpform_wpautop( $has_wpautop, $view_flg ) {
 
 
 
-  // 2025.04改修
-  function add_theme_url_variable_to_root() {
-    $theme_url = get_template_directory_uri();
-    echo "<style>
-      :root {
-        --theme-url: '{$theme_url}';
-        --blue-url: '{$theme_url}/assets/img/renovation/blue.png';
-        --check-url: '{$theme_url}/assets/img/renovation/check.png';
-      }
-    </style>";
-  }
-  add_action('wp_head', 'add_theme_url_variable_to_root');
+// 2025.04改修
+function add_theme_url_variable_to_root()
+{
+  $theme_url = get_template_directory_uri();
+  echo "<style>
+    :root {
+      --theme-url: {$theme_url};
+      --blue-url: {$theme_url}/assets/img/renovation/blue.png;
+      --check-url: {$theme_url}/assets/img/renovation/check.png;
+    }
+  </style>";
+}
+add_action('wp_head', 'add_theme_url_variable_to_root');
