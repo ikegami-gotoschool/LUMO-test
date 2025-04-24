@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
-<div class="pageService _transition">
-  <div class="mv _page pageService_mv pageServiceMv">
+<div class="pageAbout">
+  <div class="mv _page pageAbout_mv pageAboutMv">
     <picture class="mv_thumbnail pageServiceMv">
       <source media="(max-width:768px)"
         srcset="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/continuation/mv_img_sp.png">
@@ -10,8 +10,9 @@
     </picture>
 
     <div class="mv_content">
-      <h1 class="mv_heading" data-entitle="SERVICE">就労継続支援</h1>
-      <p class="mv_subcopy">あなたに合わせたカスタムメイドのご支援</p>
+      <h1 class="mv_heading" data-entitle="ABOUT">LUMO+とは</h1>
+      <p class="mv_subcopy">自分らしく働くサポートをします</p>
+      <p class="mv_text text">ひとりひとりの「できる」を<br class="sp-db">増やす就労支援施設です。</p>
     </div>
     <div class="mv_point _point1 pointbar">
       <div class="pointbar_bar _blue" data-bar1="64"></div>
@@ -22,31 +23,26 @@
       <div class="pointbar_bar _blue" data-bar3="42"></div>
     </div>
   </div>
-  <!-- /.mv pageService_mv -->
+  <!-- /.mv pageAbout_mv -->
 
-  <div class="pageService_content page_content">
+  <div class="pageAbout_content page_content">
 
-    <section class="pageService_lead pageServiceLead">
+    <!-- /.pageAbout_lead -->
+
+    <section class="pageAboutTrouble">
       <div class="inner">
-        <div class="pageServiceLead_box">
-          <div class="pageServiceLead_inner">
-            <h2 class="pageServiceLead_heading heading _sub _dashed _center"><span class="heading_text"><span class="pc-dib">就労継続支援は</span>こんな方が利用しています</span></h2>
-            <p class="pageServiceLead_text">※18歳以上65歳未満の障がいを持っている方が対象となります。</p>
-            <ul class="pageServiceLead_list list _card _blue">
-              <li class="list_item">一般企業で働くことが難しい、<br>または不安がある</li>
-              <li class="list_item">発達障がいで対人関係が苦手な<br class="pc-db">ため、理解のある職場で働きたい</li>
-              <li class="list_item">精神疾患があり、体力面で<br>長時間働くことが難しい</li>
-              <li class="list_item">将来飲食店で働くことを目標に<br>職業訓練をしたい</li>
-            </ul>
-          </div>
-          <div class="pageServiceLead_point _point1 pointbar">
-            <div class="pointbar_bar _blue"></div>
-            <div class="pointbar_bar _green"></div>
-          </div>
-        </div>
+        <h2 class="pageAboutTrouble_heading"><span>こんな<span class="color _blue">お悩み</span><br class="sp-db">ありませんか？</span></h2>
+        <ul class="pageAboutTroule_list list _card _blue">
+          <li class="list_item">うつ病など、心の調子がよくない</li>
+          <li class="list_item">ひきこもりがちになっている</li>
+          <li class="list_item">一度働いたがうまくいかなかった</li>
+          <li class="list_item">障がいや病気で働くことが難しい</li>
+          <li class="list_item">対人関係で問題をかかえている</li>
+          <li class="list_item">働くことで居場所を作りたい</li>
+        </ul>
       </div>
     </section>
-    <!-- /.pageService_lead -->
+    <!-- /.pageAboutTrouble -->
 
 
 
@@ -135,208 +131,185 @@
     </section>
     <!-- -------------------インタビュー------------------- -->
     <section class="section__interview bg__green">
-                <h2 class="pageServiceAbout_heading heading _m _center _bar">ご利用者様へのインタビュー</h2>
-                <ul class="section__interview__ul">
-                    <li class="section__interview__li">
-                        <div class="section__interview__img"><img class="img" src="img/interview1.JPG" alt=""></div>
-                        <div class="section__interview__messege">回り道だったけど、ポジティブな自分へ変わることができた。</div>
-                        <div class="section__interview__name p">利用歴１０ヶ月橋本 さん（仮名）</div>
-                    </li>
-                    <li class="section__interview__li">
-                        <div class="section__interview__img"><img class="img" src="img/interview2.JPG" alt=""></div>
-                        <div class="section__interview__messege">踏み出した一歩が、自分の活かし方を見つけるきっかけに。</div>
-                        <div class="section__interview__name p">利用歴１０ヶ月橋本 さん（仮名）</div>
-                    </li>
-                </ul>
-                <p class="cta_button button _primary _bar _l js-button"><a href="https://lumo-plus.jp/contact/"
-                    class="button_link"><span class="origin">ご相談はこちら</span></a></p>
-            </section>
+      <h2 class="pageServiceAbout_heading heading _m _center _bar">ご利用者様へのインタビュー</h2>
+      <ul class="section__interview__ul">
+        <li class="section__interview__li">
+          <div class="section__interview__img">
+            <img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/renovation/interview1.JPG" alt="">
+          </div>
+          <div class="section__interview__messege">回り道だったけど、ポジティブな自分へ変わることができた。</div>
+          <div class="section__interview__name p">利用歴１０ヶ月橋本 さん（仮名）</div>
+        </li>
+        <li class="section__interview__li">
+          <div class="section__interview__img">
+            <img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/renovation/interview2.JPG" alt="">
+          </div>
+          <div class="section__interview__messege">踏み出した一歩が、自分の活かし方を見つけるきっかけに。</div>
+          <div class="section__interview__name p">利用歴１０ヶ月橋本 さん（仮名）</div>
+        </li>
+      </ul>
+      <p class="cta_button button _primary _bar _l js-button"><a href="https://lumo-plus.jp/contact/"
+          class="button_link"><span class="origin">ご相談はこちら</span></a></p>
+    </section>
 
-    <section class="pageService_about pageServiceAbout">
-      <div class="inner">
-        <h2 class="pageServiceAbout_heading heading _bar _blue _m">LUMO+の<br class="pc-db">就労継続支援<span class="pc-dib">プログラム</span><span class="small pc-dib"> （A型）</span></h2>
 
-        <div class="pageServiceAbout_list">
-          <div class="pageServiceAbout_listItem">
-            <div class="pageServiceAbout_body">
-              <h3 class="pageServiceAbout_subheading heading _sub">障がいに理解のある職場で<br>職業訓練をすることができます</h3>
-              <p class="pageServiceAbout_text text">LUMO＋が運営するお弁当屋さんで、<span class="bold">対人関係や体力面などでのサポートを受けながら働くことができます。</span>（雇用契約・賃金のお支払いあり）<br>業務内容は、お弁当の仕込み、盛り付け、配達補助など様々で、<span class="bold">将来の就職に役立つ経験を積むことができます。</span>また、配達補助を通してお客さまから直接「ありがとう」をもらえる、やりがいのある仕事です。</p>
+    <!-- ---------------契約までの流れ--------------- -->
+    <section class="section__contract">
+      <h2 class="pageServiceAbout_heading heading _m _center _bar">契約までの流れ</h2>
+      <ol class="section__contract__ol">
+        <li class="section__contract__li">
+          <div class="section__contract__icon">
+            <div class="section__contract__icon__number green fw500">STEP01</div>
+            <div class="section__contract__icon__img">
+              <img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/renovation/contract1.png" alt="">
             </div>
-            <div class="pageServiceAbout_img">
-              <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/transition/service_img01.jpg" alt="お弁当やさんが老人にお弁当を手渡ししている様子">
+          </div>
+          <div class="section__contract__content">
+            <div class="section__contract__content__h3 fw600 nowrap">お問い合わせ</div>
+            <div class="section__contract__content__p p">電話はLINEまたはメールで受け付けております。<br>
+              お悩みのご相談やご本人さま以外でもお気軽にお問いわせください。</div>
+          </div>
+        </li>
+        <li class="section__contract__li">
+          <div class="section__contract__icon">
+            <div class="section__contract__icon__number green fw500">STEP02</div>
+            <div class="section__contract__icon__img">
+              <img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/renovation/contract2.png" alt="">
+
+            </div>
+          </div>
+          <div class="section__contract__content">
+            <div class="section__contract__content__h3 fw600 nowrap">施設見学</div>
+            <div class="section__contract__content__p p">施設を自由にご見学いただき、通っていただくイメージをつけます。<br>
+              プログラムのご紹介や利用プランについてもお伺いいたします。</div>
+          </div>
+        </li>
+        <li class="section__contract__li">
+          <div class="section__contract__icon">
+            <div class="section__contract__icon__number green fw500">STEP03</div>
+            <div class="section__contract__icon__img">
+              <img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/renovation/contract3.png" alt="">
+            </div>
+          </div>
+          <div class="section__contract__content">
+            <div class="section__contract__content__h3 fw600 nowrap">3Days体験</div>
+            <div class="section__contract__content__p p">実際のプログラムを３日間程度の期間で体験していただきます。<br>
+              家から通えるか、施設の雰囲気が合っているかなどをご検討ください。</div>
+          </div>
+        </li>
+        <li class="section__contract__li">
+          <div class="section__contract__icon">
+            <div class="section__contract__icon__number green fw500">STEP04</div>
+            <div class="section__contract__icon__img">
+              <img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/renovation/contract4.png" alt="">
+
+            </div>
+          </div>
+          <div class="section__contract__content">
+            <div class="section__contract__content__h3 fw600 nowrap">契約手続き</div>
+            <div class="section__contract__content__p p">通ってみたいと感じた上で、ご不明点やご不安な点が解消されたら支援の企画をご一緒に立てて、通所のための手続きを行います。
+            </div>
+          </div>
+        </li>
+      </ol>
+    </section>
+    <!-- ---------------契約までの流れend--------------- -->
+<!-- 店舗ページ -->
+    <section class="pageService__therapy pageService__info">
+        <div class="inner pageService__therapy__inner">
+          <h2 class="pageServiceAbout_heading heading _m _center _bar">店舗情報</h2>
+          <div class="pageService__info__wrap">
+            <div class="pageService__info__wrapper">
+              <table class="pageService__info__table">
+                <tr class="pageService__info__tr">
+                  <th class="pageService__info__th">アクセス</th>
+                  <td class="pageService__info__td">大阪府大阪市阿倍野区天王寺町南2-1-6<br>ヴェルデ阿倍野1F</td>
+                </tr>
+                <tr class="pageService__info__tr">
+                  <th class="pageService__info__th">電話番号</th>
+                  <td class="pageService__info__td">060-6770-5283</td>
+                </tr>
+                <tr class="pageService__info__tr">
+                  <th class="pageService__info__th">営業時間</th>
+                  <td class="pageService__info__td">10:00~16:00</td>
+                </tr>
+                <tr class="pageService__info__tr">
+                  <th class="pageService__info__th">定休日</th>
+                  <td class="pageService__info__td">日・祝・年末年始</td>
+                </tr>
+              </table>
+            </div>
+            <div class="pageService__info__map">
+              <iframe class="pageService__info__map__inner"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13129.684019672377!2d135.5224167!3d34.6440692!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000dd9626c7bc1f%3A0xadd9ab415dbe331e!2z5bCx5Yq056e76KGM5pSv5o-05LqL5qWt5omAIExVTU_vvIsg6Zi_5YCN6YeO!5e0!3m2!1sja!2sjp!4v1724395045589!5m2!1sja!2sjp"
+                width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
           </div>
         </div>
+      </section>
+      <section class="home_cta cta _sub">
+    <div class="inner">
+      <h2 class="heading cta_heading"><span class="cta_headingText">あなたに合う<span class="green _pc"><span class="green _sp">支援方法</span>をご提案</span>します</span><span class="pc-dib">まずは</span>お気軽にご相談ください</h2>
+      <p class="cta_button button _primary _bar _l js-button"><a href="<?php echo esc_url(home_url('/')); ?>contact/" class="button_link"><span class="origin">ご相談はこちら</span></a></p>
 
-        <div class="pageServiceAbout_flow">
-          <h3 class="pageServiceAbout_heading heading _m">1日の流れ</h3>
-          <div class="pageServiceAbout_box _flow">
-            <div class="pageServiceAbout_flowContent">
-              <div class="pageServiceAbout_flowImg">
-                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/transition/flow_img.jpg" alt="お弁当の仕込み・盛り付け作業をしている様子">
 
-              </div>
-              <dl class="pageServiceAbout_timelist timeList">
-                <div class="timeList_item">
-                  <dt class="timeList_dt">8:00</dt>
-                  <dd class="timeList_dd">出社・朝礼</dd>
-                </div>
-                <div class="timeList_item">
-                  <dt class="timeList_dt">8:15</dt>
-                  <dd class="timeList_dd">お弁当の作成<span class="pc-dib">・</span><br class="sp-db">配達準備</dd>
-                </div>
-                <div class="timeList_item">
-                  <dt class="timeList_dt">12:00</dt>
-                  <dd class="timeList_dd">昼食休憩</dd>
-                </div>
-                <div class="timeList_item">
-                  <dt class="timeList_dt">12:30</dt>
-                  <dd class="timeList_dd">お弁当調理<span class="pc-dib">・</span><br class="sp-db">おかずのカップ盛り</dd>
-                </div>
-                <div class="timeList_item">
-                  <dt class="timeList_dt">15:00</dt>
-                  <dd class="timeList_dd">清掃</dd>
-                </div>
-                <div class="timeList_item">
-                  <dt class="timeList_dt">15:00</dt>
-                  <dd class="timeList_dd">終礼</dd>
-                </div>
-                <div class="timeList_item">
-                  <dt class="timeList_dt">15:30</dt>
-                  <dd class="timeList_dd">退社</dd>
-                </div>
-              </dl>
-            </div>
-            <div class="pageServiceAbout_point _point1 pointbar">
-              <div class="pointbar_bar _blue"></div>
-              <div class="pointbar_bar _green"></div>
-            </div>
+    </div>
+    <div class="homeCta_point _point1 pointbar">
+      <div class="pointbar_bar _green"></div>
+      <div class="pointbar_bar _blue"></div>
+    </div>
+    <div class="homeCta_point _point2 pointbar">
+      <div class="pointbar_bar _blue"></div>
+      <div class="pointbar_bar _green"></div>
+    </div>
+  </section>
+  <!-- /.home_cta cta -->
+
+  <div class="homeLoop" style="overflow: hidden;">
+    <div class="loop-js sliderImage_loop">
+      <ul class="sliderImage_list">
+        <li class="sliderImage_img"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/home/loop_img01.jpg" alt="ペンとノートを手に勉強をしている様子"></li>
+        <li class="sliderImage_img"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/home/loop_img02.jpg" alt="LUMO+阿倍野事業所内の机"></li>
+        <li class="sliderImage_img"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/home/loop_img03.jpg" alt="LUMO+阿倍野事業所内の書籍など"></li>
+        <li class="sliderImage_img"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/home/loop_img04.jpg" alt="タブレットを見ながら仕事をしている様子"></li>
+        <li class="sliderImage_img"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/home/loop_img05.jpg" alt="LUMO+阿倍野事業所内のキッチンの様子"></li>
+        <li class="sliderImage_img"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/home/loop_img06.jpg" alt="お弁当を手渡ししている様子"></li>
+      </ul>
+    </div>
+  </div>
+  <!-- /.homeLoop -->
+
+
+
+
+
+
+
+
+
+    <section class="pageAboutMessage">
+      <div class="inner">
+        <h2 class="heading _m _sub _bar _center pageAboutMessage_heading">代表メッセージ </h2>
+
+        <div class="pageAboutMessage_content messageBox">
+          <div class="messageBox_body pageAboutMessage_body">
+            <p class="heading _sub messageBox_heading">すべての人が輝ける環境と<br>個々のチカラを引き出す</p>
+            <p class="messageBox_name"><span>CEO / 代表取締役</span>松本 哲</p>
+            <p class="messageBox_text text">「働く環境・働くチカラ・働きがい」をテーマにすべての人にスポットライトが当たる社会を目指してLUMO+を運営しています。残念ながらいまは働きたいという思いに応えられる社会ではありません。LUMO＋を通じて多くの方々が自分らしさと共に笑顔で「人のためになっている」と実感できる社会をつくりたいです。</p>
+            <a href="https://gotoschool.co.jp/" target="_blank" class="messageBox_link link _external">企業サイトを見る</a>
+
           </div>
+          <picture class="messageBox_img pageAboutMessage_img">
+            <source media="(max-width:768px)" srcset="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/about/ceo_message.jpg">
+            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/about/ceo_message.jpg" alt="株式会社Gotoschool  CEO/代表取締役　松本哲">
+          </picture>
         </div>
 
       </div>
     </section>
-    <!-- /.pageService_feaure pageServiceAbout -->
+    <!-- /.pageAboutMessage -->
 
-    <section class="pageServiceGuide" id="guide">
-      <div class="inner">
-        <h2 class="pageServiceFeature_heading heading _m _bar _center"><span></span>ご利用案内</h2>
-
-        <div class="guide pageServiceGuide_guide">
-          <p class="guide_heading">尼崎事業所</p>
-          <div class="guide_content ">
-            <div class="guide_body">
-              <dl class="guide_list">
-                <div class="guide_item">
-                  <dt class="guide_dt">アクセス</dt>
-                  <dd class="guide_dd">
-                    <p class="cta_text">兵庫県尼崎市大庄北４丁目２３−２７</p>
-                    <a href="https://goo.gl/maps/xroTeN6Pm43FEdJJ7" class="cta_link _map" target="_blank">Googleマップで見る</a>
-                  </dd>
-                </div>
-                <div class="guide_item">
-                  <dt class="guide_dt">電話番号</dt>
-                  <dd class="guide_dd">
-                    <p>06-6439-6789</p>
-                  </dd>
-                </div>
-                <div class="guide_item">
-                  <dt class="guide_dt">営業時間</dt>
-                  <dd class="guide_dd">
-                    <p>7:00-18:00</p>
-                  </dd>
-                </div>
-                <div class="guide_item">
-                  <dt class="guide_dt">定休日</dt>
-                  <dd class="guide_dd">
-                    <p>土日祝日、年末年始</p>
-                  </dd>
-                </div>
-              </dl>
-            </div>
-            <div class="guide_map map">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d204.93765607527186!2d135.3873091144358!3d34.73033143427753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000ee1a6b12c509%3A0x3feb61bd12e3f142!2z44CSNjYwLTAwNjMg5YW15bqr55yM5bC85bSO5biC5aSn5bqE5YyX77yU5LiB55uu77yS77yT4oiS77yS77yX!5e0!3m2!1sja!2sjp!4v1689070703929!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-          </div>
-        </div>
-        <div class="guide pageServiceGuide_guide">
-          <p class="guide_heading">吹田事業所</p>
-          <div class="guide_content ">
-            <div class="guide_body">
-              <dl class="guide_list">
-                <div class="guide_item">
-                  <dt class="guide_dt">アクセス</dt>
-                  <dd class="guide_dd">
-                    <p class="cta_text">大阪府吹田市末広町26-4</p>
-                    <a href="https://x.gd/FYjCe" class="cta_link _map" target="_blank">Googleマップで見る</a>
-                  </dd>
-                </div>
-                <div class="guide_item">
-                  <dt class="guide_dt">電話番号</dt>
-                  <dd class="guide_dd">
-                    <p>06-7164-2280</p>
-                  </dd>
-                </div>
-                <div class="guide_item">
-                  <dt class="guide_dt">営業時間</dt>
-                  <dd class="guide_dd">
-                    <p>7:00-17:00</p>
-                  </dd>
-                </div>
-                <div class="guide_item">
-                  <dt class="guide_dt">定休日</dt>
-                  <dd class="guide_dd">
-                    <p>土日祝日、年末年始</p>
-                  </dd>
-                </div>
-              </dl>
-            </div>
-            <div class="guide_map map">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3277.5842013525953!2d135.534145!3d34.7660656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e38357ea77e3%3A0x5cbbf9e80818e8f6!2z44CSNTY0LTAwMjIg5aSn6Ziq5bqc5ZC555Sw5biC5pyr5bqD55S677yS77yW4oiS77yUIOOCq-OCteODquODmeODvOODqQ!5e0!3m2!1sja!2sjp!4v1720664259132!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-          </div>
-        </div>
-        <div class="guide pageServiceGuide_guide">
-          <p class="guide_heading">伊丹事業所（申請前）</p>
-          <div class="guide_content ">
-            <div class="guide_body">
-              <dl class="guide_list">
-                <div class="guide_item">
-                  <dt class="guide_dt">アクセス</dt>
-                  <dd class="guide_dd">
-                    <p class="cta_text">兵庫県伊丹市梅ノ木６−２−１５</p>
-                    <a href="https://x.gd/nqm0i" class="cta_link _map" target="_blank">Googleマップで見る</a>
-                  </dd>
-                </div>
-                <div class="guide_item">
-                  <dt class="guide_dt">電話番号</dt>
-                  <dd class="guide_dd">
-                    <p>072-767-9826</p>
-                  </dd>
-                </div>
-                <div class="guide_item">
-                  <dt class="guide_dt">営業時間</dt>
-                  <dd class="guide_dd">
-                    <p>ー</p>
-                  </dd>
-                </div>
-                <div class="guide_item">
-                  <dt class="guide_dt">定休日</dt>
-                  <dd class="guide_dd">
-                    <p>土日祝日、年末年始</p>
-                  </dd>
-                </div>
-              </dl>
-            </div>
-            <div class="guide_map map">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6554.459693677019!2d135.410934!3d34.7749886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000f1b295ef6203%3A0x216e4121f1c09a40!2z44CSNjY0LTA4NTYg5YW15bqr55yM5LyK5Li55biC5qKF44OO5pyo77yW5LiB55uu77yS4oiS77yR77yV!5e0!3m2!1sja!2sjp!4v1720664764055!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section>
-    <!-- /.pageServiceGuide -->
 
   </div>
 </div>
