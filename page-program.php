@@ -25,25 +25,9 @@
   </div>
   <!-- /.mv pageAbout_mv -->
 
-  <div class="pageAbout_content page_content">
+  <div>
 
     <!-- /.pageAbout_lead -->
-
-    <section class="pageAboutTrouble">
-      <div class="inner">
-        <h2 class="pageAboutTrouble_heading"><span>こんな<span class="color _blue">お悩み</span><br class="sp-db">ありませんか？</span></h2>
-        <ul class="pageAboutTroule_list list _card _blue">
-          <li class="list_item">うつ病など、心の調子がよくない</li>
-          <li class="list_item">ひきこもりがちになっている</li>
-          <li class="list_item">一度働いたがうまくいかなかった</li>
-          <li class="list_item">障がいや病気で働くことが難しい</li>
-          <li class="list_item">対人関係で問題をかかえている</li>
-          <li class="list_item">働くことで居場所を作りたい</li>
-        </ul>
-      </div>
-    </section>
-    <!-- /.pageAboutTrouble -->
-
 
 
 
@@ -214,101 +198,75 @@
       </ol>
     </section>
     <!-- ---------------契約までの流れend--------------- -->
-<!-- 店舗ページ -->
+    <!-- 店舗ページ -->
     <section class="pageService__therapy pageService__info">
-        <div class="inner pageService__therapy__inner">
-          <h2 class="pageServiceAbout_heading heading _m _center _bar">店舗情報</h2>
-          <div class="pageService__info__wrap">
-            <div class="pageService__info__wrapper">
-              <table class="pageService__info__table">
-                <tr class="pageService__info__tr">
-                  <th class="pageService__info__th">アクセス</th>
-                  <td class="pageService__info__td">大阪府大阪市阿倍野区天王寺町南2-1-6<br>ヴェルデ阿倍野1F</td>
-                </tr>
-                <tr class="pageService__info__tr">
-                  <th class="pageService__info__th">電話番号</th>
-                  <td class="pageService__info__td">060-6770-5283</td>
-                </tr>
-                <tr class="pageService__info__tr">
-                  <th class="pageService__info__th">営業時間</th>
-                  <td class="pageService__info__td">10:00~16:00</td>
-                </tr>
-                <tr class="pageService__info__tr">
-                  <th class="pageService__info__th">定休日</th>
-                  <td class="pageService__info__td">日・祝・年末年始</td>
-                </tr>
-              </table>
-            </div>
-            <div class="pageService__info__map">
-              <iframe class="pageService__info__map__inner"
-                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13129.684019672377!2d135.5224167!3d34.6440692!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000dd9626c7bc1f%3A0xadd9ab415dbe331e!2z5bCx5Yq056e76KGM5pSv5o-05LqL5qWt5omAIExVTU_vvIsg6Zi_5YCN6YeO!5e0!3m2!1sja!2sjp!4v1724395045589!5m2!1sja!2sjp"
-                width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
+      <div class="inner pageService__therapy__inner">
+        <h2 class="pageServiceAbout_heading heading _m _center _bar">店舗情報</h2>
+        <div class="pageService__info__wrap">
+          <div class="pageService__info__wrapper">
+            <table class="pageService__info__table">
+              <tr class="pageService__info__tr">
+                <th class="pageService__info__th">アクセス</th>
+                <td class="pageService__info__td">大阪府大阪市阿倍野区天王寺町南2-1-6<br>ヴェルデ阿倍野1F</td>
+              </tr>
+              <tr class="pageService__info__tr">
+                <th class="pageService__info__th">電話番号</th>
+                <td class="pageService__info__td">060-6770-5283</td>
+              </tr>
+              <tr class="pageService__info__tr">
+                <th class="pageService__info__th">営業時間</th>
+                <td class="pageService__info__td">10:00~16:00</td>
+              </tr>
+              <tr class="pageService__info__tr">
+                <th class="pageService__info__th">定休日</th>
+                <td class="pageService__info__td">日・祝・年末年始</td>
+              </tr>
+            </table>
+          </div>
+          <div class="pageService__info__map">
+            <iframe class="pageService__info__map__inner"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13129.684019672377!2d135.5224167!3d34.6440692!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000dd9626c7bc1f%3A0xadd9ab415dbe331e!2z5bCx5Yq056e76KGM5pSv5o-05LqL5qWt5omAIExVTU_vvIsg6Zi_5YCN6YeO!5e0!3m2!1sja!2sjp!4v1724395045589!5m2!1sja!2sjp"
+              width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </div>
-      </section>
-      <section class="home_cta cta _sub">
-    <div class="inner">
-      <h2 class="heading cta_heading"><span class="cta_headingText">あなたに合う<span class="green _pc"><span class="green _sp">支援方法</span>をご提案</span>します</span><span class="pc-dib">まずは</span>お気軽にご相談ください</h2>
-      <p class="cta_button button _primary _bar _l js-button"><a href="<?php echo esc_url(home_url('/')); ?>contact/" class="button_link"><span class="origin">ご相談はこちら</span></a></p>
-
-
-    </div>
-    <div class="homeCta_point _point1 pointbar">
-      <div class="pointbar_bar _green"></div>
-      <div class="pointbar_bar _blue"></div>
-    </div>
-    <div class="homeCta_point _point2 pointbar">
-      <div class="pointbar_bar _blue"></div>
-      <div class="pointbar_bar _green"></div>
-    </div>
-  </section>
-  <!-- /.home_cta cta -->
-
-  <div class="homeLoop" style="overflow: hidden;">
-    <div class="loop-js sliderImage_loop">
-      <ul class="sliderImage_list">
-        <li class="sliderImage_img"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/home/loop_img01.jpg" alt="ペンとノートを手に勉強をしている様子"></li>
-        <li class="sliderImage_img"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/home/loop_img02.jpg" alt="LUMO+阿倍野事業所内の机"></li>
-        <li class="sliderImage_img"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/home/loop_img03.jpg" alt="LUMO+阿倍野事業所内の書籍など"></li>
-        <li class="sliderImage_img"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/home/loop_img04.jpg" alt="タブレットを見ながら仕事をしている様子"></li>
-        <li class="sliderImage_img"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/home/loop_img05.jpg" alt="LUMO+阿倍野事業所内のキッチンの様子"></li>
-        <li class="sliderImage_img"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/home/loop_img06.jpg" alt="お弁当を手渡ししている様子"></li>
-      </ul>
-    </div>
-  </div>
-  <!-- /.homeLoop -->
-
-
-
-
-
-
-
-
-
-    <section class="pageAboutMessage">
-      <div class="inner">
-        <h2 class="heading _m _sub _bar _center pageAboutMessage_heading">代表メッセージ </h2>
-
-        <div class="pageAboutMessage_content messageBox">
-          <div class="messageBox_body pageAboutMessage_body">
-            <p class="heading _sub messageBox_heading">すべての人が輝ける環境と<br>個々のチカラを引き出す</p>
-            <p class="messageBox_name"><span>CEO / 代表取締役</span>松本 哲</p>
-            <p class="messageBox_text text">「働く環境・働くチカラ・働きがい」をテーマにすべての人にスポットライトが当たる社会を目指してLUMO+を運営しています。残念ながらいまは働きたいという思いに応えられる社会ではありません。LUMO＋を通じて多くの方々が自分らしさと共に笑顔で「人のためになっている」と実感できる社会をつくりたいです。</p>
-            <a href="https://gotoschool.co.jp/" target="_blank" class="messageBox_link link _external">企業サイトを見る</a>
-
-          </div>
-          <picture class="messageBox_img pageAboutMessage_img">
-            <source media="(max-width:768px)" srcset="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/about/ceo_message.jpg">
-            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/about/ceo_message.jpg" alt="株式会社Gotoschool  CEO/代表取締役　松本哲">
-          </picture>
-        </div>
-
       </div>
     </section>
-    <!-- /.pageAboutMessage -->
+    <section class="home_cta cta _sub">
+      <div class="inner">
+        <h2 class="heading cta_heading"><span class="cta_headingText">あなたに合う<span class="green _pc"><span class="green _sp">支援方法</span>をご提案</span>します</span><span class="pc-dib">まずは</span>お気軽にご相談ください</h2>
+        <p class="cta_button button _primary _bar _l js-button"><a href="<?php echo esc_url(home_url('/')); ?>contact/" class="button_link"><span class="origin">ご相談はこちら</span></a></p>
+
+
+      </div>
+      <div class="homeCta_point _point1 pointbar">
+        <div class="pointbar_bar _green"></div>
+        <div class="pointbar_bar _blue"></div>
+      </div>
+      <div class="homeCta_point _point2 pointbar">
+        <div class="pointbar_bar _blue"></div>
+        <div class="pointbar_bar _green"></div>
+      </div>
+    </section>
+    <!-- /.home_cta cta -->
+
+    <div class="homeLoop" style="overflow: hidden;">
+      <div class="loop-js sliderImage_loop">
+        <ul class="sliderImage_list">
+          <li class="sliderImage_img"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/home/loop_img01.jpg" alt="ペンとノートを手に勉強をしている様子"></li>
+          <li class="sliderImage_img"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/home/loop_img02.jpg" alt="LUMO+阿倍野事業所内の机"></li>
+          <li class="sliderImage_img"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/home/loop_img03.jpg" alt="LUMO+阿倍野事業所内の書籍など"></li>
+          <li class="sliderImage_img"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/home/loop_img04.jpg" alt="タブレットを見ながら仕事をしている様子"></li>
+          <li class="sliderImage_img"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/home/loop_img05.jpg" alt="LUMO+阿倍野事業所内のキッチンの様子"></li>
+          <li class="sliderImage_img"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/home/loop_img06.jpg" alt="お弁当を手渡ししている様子"></li>
+        </ul>
+      </div>
+    </div>
+    <!-- /.homeLoop -->
+
+
+
+
 
 
   </div>
