@@ -11,8 +11,7 @@
 
     <div class="mv_content">
       <h1 class="mv_heading" data-entitle="SERVICE">就労継続支援</h1>
-      <p class="mv_subcopy">特性に理解のある職場で働きたい方へ </p>
-      <p class="mv_text text">LUMO+が運営するお弁当屋さんで<br class="sp-db">働く機会を提供します。</p>
+      <p class="mv_subcopy">あなたに合わせたカスタムメイドのご支援</p>
     </div>
     <div class="mv_point _point1 pointbar">
       <div class="pointbar_bar _blue" data-bar1="64"></div>
@@ -48,6 +47,110 @@
       </div>
     </section>
     <!-- /.pageService_lead -->
+
+
+
+
+    <section class="section__program">
+      <h2 class="pageServiceAbout_heading heading _m _center _bar">運動を取り入れた独自のスキル特化型プログラム</h2>
+      <p class="p section__program__p">
+        LUMO＋は一人ひとりの特性に合わせてプログラムをカスタムできるカリキュラムを提供しています。まずは生活や通所をスムーズにするための運動、特性を引き起こしている可能性のある原始反射に着目したエクササイズを行い、働くためのカラダ・ココロづくりをします。その後に基礎・応用的なビジネススキルを習得できるもののほかに、デザインやイラストなどの専門的なプログラムを受講しながら、最適な就労を目指して働く力を身につけていきます。
+      </p>
+      <ol class="section__program__ol">
+        <li class="section__program__li">
+          <div class="section__program__li__title">
+            <div class="section__program__no">
+              <div class="section__program__no__program">program</div>
+              <div class="section__program__no__number">01</div>
+            </div>
+            <h3 class="section__program__h3">ビジネス基礎・応用スキル</h3>
+          </div>
+          <div class="section__program__wrap">
+            <div class="section__program__img">
+              <img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/renovation/program1.jpg" alt="">
+            </div>
+            <div class="section__program__contents">
+              <h4 class="section__program__h4"><span class="orange">基礎から</span>はじめる。<br>
+                <span class="orange">自信がつくまで</span>学ぶことが重要。
+              </h4>
+              <p class="p">一人ひとりのレベルに合わせてカリキュラムを作成します。プログラムは400種類を超え、資格の取得も可能です。<br>
+                「こんなに基礎から教えてくれるの？」と言っていただけるほど、就労支援ならではの手厚いサポートが特徴です。安心して学べる環境で、自信がつくまで一緒に伴走いたします。
+              </p>
+              <div class="section__program__skill">
+                <h5 class="section__program__h5">習得が可能なスキル</h5>
+                <p class="p">Excel 、Word、、PowerPoint、Access、Outlook、MOS取得、HTML、CSS、JavaScript</p>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="section__program__li">
+          <div class="section__program__li__title">
+            <div class="section__program__no">
+              <div class="section__program__no__program">program</div>
+              <div class="section__program__no__number">02</div>
+            </div>
+            <h3 class="section__program__h3">専門スキル</h3>
+          </div>
+          <div class="section__program__wrap">
+            <div class="section__program__img">
+              <img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/renovation/program2.jpg" alt="">
+            </div>
+            <div class="section__program__contents">
+              <h4 class="section__program__h4"><span class="orange">pixiv社</span>と共同開発の<br>
+                プログラムで<br>
+                <span class="orange">クリエイタースキル</span>を。
+              </h4>
+              <p class="p">
+                pixiv社と共同開発したカリキュラムは、デザイナーやクリエイターのスキル習得を目指すコンテンツです。プロが実際に使用するツール「Abobe」のIllustratorやPhotoshopのインストール方法からスタートし、操作方法だけでなく、クリエイター技術の全体を動画解説付きで学ぶことができる教材でスキル習得をサポートします。
+              </p>
+              <!-- <p class="homeService_button _s button _green _bar js-button"><a href="" class="button_link"><span
+                                    class="origin" style="font-size: 14px;">開講記念対談記事へ</span></a></p> -->
+            </div>
+          </div>
+        </li>
+        <li class="section__program__li">
+          <div class="section__program__li__title">
+            <div class="section__program__no">
+              <div class="section__program__no__program">program</div>
+              <div class="section__program__no__number">03</div>
+            </div>
+            <h3 class="section__program__h3">運動プログラム</h3>
+          </div>
+          <div class="section__program__wrap">
+            <div class="section__program__img">
+              <img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/renovation/program3.JPG" alt="">
+            </div>
+            <div class="section__program__contents">
+              <h4 class="section__program__h4"><span class="orange">脳を刺激して</span>発達特性に<br>
+                アプローチする<br>
+                <span class="orange">医師監修</span>の運動プログラム。
+              </h4>
+              <p class="p">
+                pixiv社と共同開発したカリキュラムは、デザイナーやクリエイターのスキル習得を目指すコンテンツです。プロが実際に使用するツール「Abobe」のIllustratorやPhotoshopのインストール方法からスタートし、操作方法だけでなく、クリエイター技術の全体を動画解説付きで学ぶことができる教材でスキル習得をサポートします。
+              </p>
+            </div>
+          </div>
+        </li>
+      </ol>
+    </section>
+    <!-- -------------------インタビュー------------------- -->
+    <section class="section__interview bg__green">
+                <h2 class="pageServiceAbout_heading heading _m _center _bar">ご利用者様へのインタビュー</h2>
+                <ul class="section__interview__ul">
+                    <li class="section__interview__li">
+                        <div class="section__interview__img"><img class="img" src="img/interview1.JPG" alt=""></div>
+                        <div class="section__interview__messege">回り道だったけど、ポジティブな自分へ変わることができた。</div>
+                        <div class="section__interview__name p">利用歴１０ヶ月橋本 さん（仮名）</div>
+                    </li>
+                    <li class="section__interview__li">
+                        <div class="section__interview__img"><img class="img" src="img/interview2.JPG" alt=""></div>
+                        <div class="section__interview__messege">踏み出した一歩が、自分の活かし方を見つけるきっかけに。</div>
+                        <div class="section__interview__name p">利用歴１０ヶ月橋本 さん（仮名）</div>
+                    </li>
+                </ul>
+                <p class="cta_button button _primary _bar _l js-button"><a href="https://lumo-plus.jp/contact/"
+                    class="button_link"><span class="origin">ご相談はこちら</span></a></p>
+            </section>
 
     <section class="pageService_about pageServiceAbout">
       <div class="inner">
