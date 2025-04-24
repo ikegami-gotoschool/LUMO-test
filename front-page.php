@@ -3,9 +3,6 @@
 <div class="home">
   <div class="mv _home homeMv">
 
-    <div class="homeMv_banner pc-db">
-      <a href="<?php echo esc_url(home_url('/')); ?>franchise/"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/home/mv_banner.svg" alt="フランチャイズオーナー募集中"></a>
-    </div>
     <div class="mv_inner homeMv_top">
       <div class="homeMv_imgWrapper">
         <div class="mv_img homeMv_img _main">
