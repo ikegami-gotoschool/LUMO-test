@@ -101,7 +101,7 @@
             <div class="pointbar_bar _m"></div>
             <div class="pointbar_bar _s _blue"></div>
           </div>
-          <picture  class="homeService_img">
+          <picture class="homeService_img">
             <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/home/service_img01.jpg" alt="ペンとノートを手に勉強をしている様子" width="568" height="356">
           </picture>
           <div class="homeService_content">
@@ -137,7 +137,7 @@
           <div class="homeService_point _point2 pointbar">
             <div class="pointbar_bar"></div>
           </div>
-          <picture  class="homeService_img">
+          <picture class="homeService_img">
             <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/home/service_img02.jpg" alt="お弁当を持ち微笑む女性" width="568" height="356">
           </picture>
           <div class="homeService_content">
@@ -176,17 +176,94 @@
 
 
   <section class="section__trouble">
-        <h3 class="section__trouble__h3">こんな<span class="orange">お困り</span><br class="sp-br">ありませんか</h3>
-        <div class="section__trouble__wrap p">
-          <div class="section__trouble__text text1">働きたいけど<br class="pc-br">何からすればいい？</div>
-          <div class="section__trouble__text text2">働いても<br class="pc-br">長く続かない</div>
-          <div class="section__trouble__text text3">面接でうまく<br class="pc-br">説明できない...</div>
-          <div class="section__trouble__text text4">診断名を就職先に<br class="pc-br">伝えた方がいい？</div>
-          <div class="section__trouble__text text5">体調が<br class="pc-br">安定しない...</div>
-          <div class="section__trouble__img">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/renovation/trouble.png" alt="">
+    <h3 class="section__trouble__h3">こんな<span class="orange">お困り</span><br class="sp-br">ありませんか</h3>
+    <div class="section__trouble__wrap p">
+      <div class="section__trouble__text text1">働きたいけど<br class="pc-br">何からすればいい？</div>
+      <div class="section__trouble__text text2">働いても<br class="pc-br">長く続かない</div>
+      <div class="section__trouble__text text3">面接でうまく<br class="pc-br">説明できない...</div>
+      <div class="section__trouble__text text4">診断名を就職先に<br class="pc-br">伝えた方がいい？</div>
+      <div class="section__trouble__text text5">体調が<br class="pc-br">安定しない...</div>
+      <div class="section__trouble__img">
+        <img class="img2" src="<?php echo get_template_directory_uri(); ?>/assets/img/renovation/trouble.png" alt="">
+      </div>
+    </div>
+  </section>
+      <!-- ---------------3つの柱--------------- -->
+  <section class="section__pillar bg__green">
+        <div class="section__pillar__triangle"></div>
+        <h3 class="section__pillar__h3">LUMO＋では<br>3つの柱があなたの就職活動を<br><span
+            class="orange section__pillar__h3__orange">徹底サポート</span>します！</h3>
+        <div class="section__pillar__wrap">
+          <div class="section__pillar__img">
+            <img class="img2" src="<?php echo get_template_directory_uri(); ?>/assets/img/renovation/triangle.png" alt="">
+          </div>
+          <div class="section__pillar__contents">
+            <h4 class="section__pillar__h4">運動プログラムで調えながら実務的な基礎・応用スキルを習得する。</h4>
+            <p class="p">
+              LUMO+はカラダを調える医師監修の運動プログラムのほか、400種類以上の多種多様なビジネス基礎スキルを習得できる講座、国内最大級の作品コミュニケーションサービスを展開するpixiv株式会社と共同開発したデザインやイラストや動画制作などが学べるカリキュラムの3プログラムであなたの就労をサポートします。
+
+              一人ひとりのペースに合わせてカスタムメイドされる、スキル特化プログラムで市場ニーズを満たす人材を目指します。</p>
+            <p class="homeService_button _s button _green _bar js-button"><a href="" class="button_link"><span
+                  class="origin" style="font-size: 14px;">LUMO＋のプログラムはこちら</span></a></p>
+          </div>
         </div>
-        </div>
+            <div class="cva">
+              <h3 class="cva__h3">あなたの一歩をお待ちしています。</h3>
+              <p class="cva__p cta_button button _primary _bar _l js-button"><a href="https://lumo-plus.jp/contact/"
+                  class="button_link"><span class="origin">ご相談はこちら</span></a></p>
+            </div>
+      </section>
+      <!-- ---------------契約までの流れ--------------- -->
+      <section class="section__contract">
+        <h2 class="pageServiceAbout_heading heading _m _center _bar">契約までの流れ</h2>
+        <ol class="section__contract__ol">
+          <li class="section__contract__li">
+            <div class="section__contract__icon">
+              <div class="section__contract__icon__number green fw500">STEP01</div>
+              <div class="section__contract__icon__img">
+                <img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/renovation/contract1.png" alt="">
+              </div>
+            </div>
+            <div class="section__contract__content">
+              <div class="section__contract__content__h3 fw600 nowrap">お問い合わせ</div>
+              <div class="section__contract__content__p p">電話はLINEまたはメールで受け付けております。<br>
+                お悩みのご相談やご本人さま以外でもお気軽にお問いわせください。</div>
+            </div>
+          </li>
+          <li class="section__contract__li">
+            <div class="section__contract__icon">
+              <div class="section__contract__icon__number green fw500">STEP02</div>
+              <div class="section__contract__icon__img"><img class="img" src="img/contract2.png" alt=""></div>
+            </div>
+            <div class="section__contract__content">
+              <div class="section__contract__content__h3 fw600 nowrap">施設見学</div>
+              <div class="section__contract__content__p p">施設を自由にご見学いただき、通っていただくイメージをつけます。<br>
+                プログラムのご紹介や利用プランについてもお伺いいたします。</div>
+            </div>
+          </li>
+          <li class="section__contract__li">
+            <div class="section__contract__icon">
+              <div class="section__contract__icon__number green fw500">STEP03</div>
+              <div class="section__contract__icon__img"><img class="img" src="img/contract3.png" alt=""></div>
+            </div>
+            <div class="section__contract__content">
+              <div class="section__contract__content__h3 fw600 nowrap">3Days体験</div>
+              <div class="section__contract__content__p p">実際のプログラムを３日間程度の期間で体験していただきます。<br>
+                家から通えるか、施設の雰囲気が合っているかなどをご検討ください。</div>
+            </div>
+          </li>
+          <li class="section__contract__li">
+            <div class="section__contract__icon">
+              <div class="section__contract__icon__number green fw500">STEP04</div>
+              <div class="section__contract__icon__img"><img class="img" src="img/contract4.png" alt=""></div>
+            </div>
+            <div class="section__contract__content">
+              <div class="section__contract__content__h3 fw600 nowrap">契約手続き</div>
+              <div class="section__contract__content__p p">通ってみたいと感じた上で、ご不明点やご不安な点が解消されたら支援の企画をご一緒に立てて、通所のための手続きを行います。
+              </div>
+            </div>
+          </li>
+        </ol>
       </section>
   <!-- /#service.home_sec -->
 
@@ -240,7 +317,7 @@
             </p>
             <p class="flow_text text"><a href="<?php echo esc_url(home_url('/')); ?>contact/">お問い合わせフォーム</a>よりご連絡ください。<br>後日担当者からご相談日程をメールでお送りいたします。</p>
           </div>
-          <picture class="flow_img"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/home/flow_img01.jpg" alt="スマートフォンを操作する手元" sizes="" srcset=""  width="391" height="261"></picture>
+          <picture class="flow_img"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/home/flow_img01.jpg" alt="スマートフォンを操作する手元" sizes="" srcset="" width="391" height="261"></picture>
         </li>
         <li class="flow_item">
           <div class="flow_content">
@@ -250,7 +327,7 @@
             </p>
             <p class="flow_text text">当日はご状況をお伺いし、ご利用者さまにあった支援方法をご提案します。施設見学・体験利用も可能です。</p>
           </div>
-          <picture class="flow_img"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/home/flow_img02.jpg" alt="就労支援の面談をしている男性と女性" sizes="" srcset=""  width="391" height="261"></picture>
+          <picture class="flow_img"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/home/flow_img02.jpg" alt="就労支援の面談をしている男性と女性" sizes="" srcset="" width="391" height="261"></picture>
         </li>
         <li class="flow_item">
           <div class="flow_content">
@@ -312,14 +389,14 @@
                   <p class="faqItem_text text">原則として下記の方が対象となります。</p>
                   <h3 class="faqItem__subtitle">就労移行支援</h3>
                   <p class="faqItem_text text">・18歳以上、65歳未満<br>
-                  ・障害者手帳を持っている<br>
-                  ・一般企業への就職を希望している<br>
-                  ・支援によって就職が可能 </p>
+                    ・障害者手帳を持っている<br>
+                    ・一般企業への就職を希望している<br>
+                    ・支援によって就職が可能 </p>
 
                   <h3 class="faqItem__subtitle">就労継続支援A型</h3>
                   <p class="faqItem_text text">・18歳以上65歳未満<br>
-                  ・障害者手帳を持っている<br>
-                  ・一般企業への就職が不安または困難
+                    ・障害者手帳を持っている<br>
+                    ・一般企業への就職が不安または困難
                   </p>
                 </div>
               </dd>
