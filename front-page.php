@@ -260,7 +260,7 @@
   <!-- /.homeLoop -->
 
 
-  <section class="home_sec homeFlow" id="flow">
+  <!-- <section class="home_sec homeFlow" id="flow">
 
     <div class="inner">
       <h2 class="heading _sec _entitle homeService_heading" data-entitle="FLOW"><span class="heading_text">ご利用の流れ</span></h2>
@@ -311,7 +311,7 @@
       </ul>
 
     </div>
-  </section>
+  </section> -->
   <!-- /#flow.home_sec -->
 
 
