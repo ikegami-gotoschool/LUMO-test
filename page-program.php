@@ -45,7 +45,7 @@
             <h3 class="section__program__h3">ビジネス基礎・応用スキル</h3>
           </div>
           <div class="section__program__wrap">
-            <div class="section__program__img">
+            <div class="section__program__img img_credit2">
               <img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/renovation/program1.jpg" alt="">
             </div>
             <div class="section__program__contents">

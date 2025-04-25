@@ -129,7 +129,7 @@
                   ご利用いただく皆さまお一人おひとりに最適なプランを考案するために、現在の生活についてお伺いいたします。相談員がホスピタリティを持ってヒアリングしますので、無理せずゆっくりお話をお聞かせください。
                 </p>
               </div>
-              <div class="section__image__img">
+              <div class="section__image__img img_credit2">
                 <img class="img" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/renovation/image1.jpg" alt="">
               </div>
               <div class="section__image__sub">
