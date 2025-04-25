@@ -110,6 +110,118 @@
       </div>
       <!-- アコーディオン練習ここまで -->
     </section>
+
+    <!-- ---------------------体験のイメージ--------------------- -->
+    <section class="section__image">
+      <h2 class="pageServiceAbout_heading heading _m _center _bar">体験のイメージ</h2>
+      <p class="p fp">LUMO＋では、通い始める前のステップも大切にしています。通い方や1日の流れなどに納得した上で通所いただけるように、3日間の体験プログラムをご用意しています。</p>
+      <ul>
+        <li class="section__image__li">
+          <div class="section__image__number">
+            <div class="section__image__no">01</div>
+            <div class="section__image__arrow"></div>
+          </div>
+          <div class="section__image__wrapper">
+            <div class="section__image__wrap">
+              <div class="section__image__contents">
+                <h3 class="section__image__h3">ヒアリング</h3>
+                <p class="p">
+                  ご利用いただく皆さまお一人おひとりに最適なプランを考案するために、現在の生活についてお伺いいたします。相談員がホスピタリティを持ってヒアリングしますので、無理せずゆっくりお話をお聞かせください。
+                </p>
+              </div>
+              <div class="section__image__img">
+                <img class="img" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/renovation/image1.jpg" alt="">
+              </div>
+              <div class="section__image__sub">
+                <img class="img2" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/renovation/image1-1.png" alt="">
+              </div>
+            </div>
+            <div class="section__image__check bg__green">
+              <h4 class="section__image__check__h4">CHECK</h4>
+              <h5 class="section__image__check__h5">以下の内容をカウンセリング時にお聞きいたします。</h5>
+              <ul class="check__ul">
+                <li class="check__li">今の生活で、お困りごとはありますか？</li>
+                <li class="check__li">就職のイメージやそれに対する心配などを教えてください。</li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li class="section__image__li">
+          <div class="section__image__number">
+            <div class="section__image__no">02</div>
+            <div class="section__image__arrow"></div>
+          </div>
+          <div class="section__image__wrapper">
+            <div class="section__image__wrap">
+              <div class="section__image__contents">
+                <h3 class="section__image__h3">プログラム説明とご見学</h3>
+                <p class="p">
+                  施設内を自由に見学いただくことができます。安心して通所いただけるように、施設や将来のことなど、なんでもご相談ください。プログラムの詳細と併せて、ご説明いたします。
+                </p>
+              </div>
+              <div class="section__image__img"><img class="img" src="img/image2.JPG" alt=""></div>
+              <div class="section__image__sub"><img class="image1" src="img/image2-1.png" alt="">
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="section__image__li">
+          <div class="section__image__number">
+            <div class="section__image__no">03</div>
+            <div class="section__image__arrow"></div>
+          </div>
+          <div class="section__image__wrapper">
+            <div class="section__image__wrap">
+              <div class="section__image__contents">
+                <h3 class="section__image__h3">3Days 体験プログラム</h3>
+                <p class="p">
+                  通所前に、どのような支援があるのか、自宅から通所いただく際の経路についてなどを体感いただける3日間の体験プログラムがあります。
+                </p>
+              </div>
+              <div class="section__image__img"><img class="img" src="img/image3.JPG" alt=""></div>
+              <div class="section__image__sub"><img class="image1" src="img/image3-1.png" alt="">
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="section__image__li">
+          <div class="section__image__number">
+            <div class="section__image__no">04</div>
+            <div class="section__image__arrow"></div>
+          </div>
+          <div class="section__image__wrapper">
+            <div class="section__image__wrap">
+              <div class="section__image__contents">
+                <h3 class="section__image__h3">通所イメージの共有</h3>
+                <p class="p">
+                  施設見学と3Days体験プログラムを通じて、通所頻度やカリキュラムの構成などについて、私たちも利用者さまと今後のイメージを一緒に考えます。
+                </p>
+              </div>
+              <div class="section__image__img"><img class="img" src="img/image4.JPG" alt=""></div>
+              <div class="section__image__sub"><img class="image1" src="img/image4-1.png" alt="">
+              </div>
+            </div>
+          </div>
+        </li>
+        </li>
+        <li class="section__image__li">
+          <div class="section__image__number">
+            <div class="section__image__no">05</div>
+          </div>
+          <div class="section__image__wrapper">
+            <div class="section__image__wrap">
+              <div class="section__image__contents">
+                <h3 class="section__image__h3">入会手続き</h3>
+                <p class="p">
+                  受給者証を取得されている方は、すぐに通所いただけます。約1時間程度で完了することができます。
+                </p>
+              </div>
+              <div class="section__image__img"><img class="img" src="img/image5.JPG" alt=""></div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </section>
     <section class="section__program">
       <h2 class="pageServiceAbout_heading heading _m _center _bar">運動を取り入れた独自のスキル特化型プログラム</h2>
       <p class="p section__program__p">
