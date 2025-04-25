@@ -10,8 +10,8 @@
     </picture>
 
     <div class="mv_content">
-      <h1 class="mv_heading" data-entitle="PROGRAMS">LUMO+のプログラム</h1>
-      <p class="mv_subcopy">あなたに合わせたカスタムメイドのご支援</p>
+      <h1 class="mv_heading" data-entitle="PROGRAMS">見学と体験について</h1>
+      <p class="mv_subcopy">３日間のプログラムを体験できます。</p>
     </div>
     <div class="mv_point _point1 pointbar">
       <div class="pointbar_bar _blue" data-bar1="64"></div>

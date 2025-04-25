@@ -121,14 +121,14 @@
             <img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/renovation/interview1.JPG" alt="">
           </div>
           <div class="section__interview__messege">回り道だったけど、ポジティブな自分へ変わることができた。</div>
-          <div class="section__interview__name p">利用歴１０ヶ月橋本 さん（仮名）</div>
+          <div class="section__interview__name p">利用歴半年以上 橋本さん（仮名）</div>
         </li>
         <li class="section__interview__li">
           <div class="section__interview__img">
             <img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/renovation/interview2.JPG" alt="">
           </div>
           <div class="section__interview__messege">踏み出した一歩が、自分の活かし方を見つけるきっかけに。</div>
-          <div class="section__interview__name p">利用歴１０ヶ月橋本 さん（仮名）</div>
+          <div class="section__interview__name p">利用歴1年以上 田中さん（仮名）</div>
         </li>
       </ul>
       <p class="cta_button button _primary _bar _l js-button"><a href="https://lumo-plus.jp/contact/"
