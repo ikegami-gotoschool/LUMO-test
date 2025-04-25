@@ -9698,3 +9698,206 @@ tagList
     max-width: 90%;
   }
 }
+
+
+
+
+
+
+/* フッター編集 */
+/*
+  footer nav
+-----------------------------------------------------*/
+@media screen and (max-width: 767px) {
+  .footerNav {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .footerNav_list {
+    padding-left: 0;
+    gap: 12px 80px;
+  }
+}
+.footerNav_list._main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px 20px;
+  margin-top: 40px;
+}
+@media screen and (min-width: 768px) {
+  .footerNav_list._main {
+    margin-top: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    gap: 0;
+  }
+}
+@media screen and (min-width: 768px) {
+  .footerNav_list._main._sp {
+    display: none;
+  }
+}
+.footerNav_list._main._pc {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .footerNav_list._main._pc {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+@media screen and (min-width: 768px) {
+  .footerNav_list._sub {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 21px;
+    display: flex;
+    gap: 0 20px;
+  }
+}
+.footerNav_list._sub._sp {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px 20px;
+}
+@media screen and (min-width: 768px) {
+  .footerNav_list._sub._sp {
+    display: none;
+  }
+}
+.footerNav_list._sub._pc {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .footerNav_list._sub._pc {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    padding-bottom: 6px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .footerNav_list._main .footerNav_listitem {
+    position: relative;
+    padding-left: 1.6949152542%;
+    padding-right: 1.6949152542%;
+  }
+  .footerNav_list._main .footerNav_listitem::after {
+    content: "";
+    display: block;
+    height: 13px;
+    width: 1px;
+    background: var(--color-divider);
+    position: absolute;
+    top: calc(50% - 7px);
+    right: 0;
+  }
+}
+@media screen and (min-width: 1180px) {
+  .footerNav_list._main .footerNav_listitem {
+    position: relative;
+    padding-left: 2.3728813559%;
+    padding-right: 2.3728813559%;
+  }
+  .footerNav_list._main .footerNav_listitem::after {
+    content: "";
+    display: block;
+    height: 13px;
+    width: 1px;
+    background: var(--color-divider);
+    position: absolute;
+    top: calc(50% - 7px);
+    right: 0;
+  }
+}
+@media screen and (min-width: 768px) {
+  .footerNav_list._main .footerNav_listitem:first-child {
+    padding-left: 0;
+  }
+}
+@media screen and (min-width: 768px) {
+  .footerNav_list._main .footerNav_listitem:last-child::after {
+    content: none;
+  }
+}
+.footerNav_listitem._twitter img {
+  width: 40px;
+}
+@media screen and (max-width: 767px) {
+  .footerNav_listitem._twitter {
+    margin-top: 24px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .footerNav_listitem._twitter {
+    margin-bottom: -9px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .footerNav_listitem._franchise {
+    margin-right: -20px;
+  }
+}
+
+.footerNav_link {
+  text-decoration: none;
+  color: var(--color-black);
+}
+.footerNav_list._main .footerNav_link {
+  display: inline-block;
+  position: relative;
+  font-weight: 500;
+}
+@media screen and (min-width: 768px) {
+  .footerNav_list._main .footerNav_link {
+    letter-spacing: 0.06em;
+  }
+}
+.footerNav_list._main .footerNav_link::after {
+  content: "";
+  display: block;
+  height: 1px;
+  background: currentColor;
+  width: 0;
+  position: absolute;
+  bottom: 0;
+  left: auto;
+  right: 0;
+  -webkit-transition: width 0.3s;
+  transition: width 0.3s;
+}
+.footerNav_list._main .footerNav_link:hover::after {
+  width: 100%;
+  left: 0;
+  right: auto;
+}
+.footerNav._sub .footerNav_link {
+  font-size: 0.8125rem;
+}
+@media screen and (min-width: 768px) {
+  .footerNav._sub .footerNav_link {
+    font-size: 0.75rem;
+  }
+}
+@media (hover: hover) {
+  .footerNav._sub .footerNav_link {
+    -webkit-transition: opacity;
+    transition: opacity;
+  }
+  .footerNav._sub .footerNav_link:hover {
+    opacity: 0.6;
+  }
+}
