@@ -9709,7 +9709,7 @@ tagList
   footer nav
 -----------------------------------------------------*/
 
-
+/* 変更 */
 @media screen and (min-width: 768px) {
   .footerNav_list._main {
     display: flex;
@@ -9741,14 +9741,7 @@ tagList
   grid-template-columns: repeat(2, 1fr);
   gap: 16px 20px;
 }
-@media screen and (min-width: 768px) {
-  .footerNav_list._sub._sp {
-    display: none;
-  }
-}
-.footerNav_list._sub._pc {
-  display: none;
-}
+
 @media screen and (min-width: 768px) {
   .footerNav_list._sub._pc {
     display: -webkit-box;
@@ -9760,12 +9753,12 @@ tagList
     padding-bottom: 6px;
   }
 }
-
+/* 変更 */
 @media screen and (min-width: 768px) {
   .footerNav_list._main .footerNav_listitem {
     position: relative;
-    padding-left: 1.6949152542%;
-    padding-right: 1.6949152542%;
+    padding-left: 4%;
+    padding-right: 4%;
   }
   .footerNav_list._main .footerNav_listitem::after {
     content: "";
@@ -9778,11 +9771,12 @@ tagList
     right: 0;
   }
 }
+/* 変更 */
 @media screen and (min-width: 1180px) {
   .footerNav_list._main .footerNav_listitem {
     position: relative;
-    padding-left: 2.3728813559%;
-    padding-right: 2.3728813559%;
+    padding-left: 6%;
+    padding-right: 6%;
   }
   .footerNav_list._main .footerNav_listitem::after {
     content: "";
@@ -9800,11 +9794,7 @@ tagList
     padding-left: 0;
   }
 }
-@media screen and (min-width: 768px) {
-  .footerNav_list._main .footerNav_listitem:last-child::after {
-    content: none;
-  }
-}
+
 .footerNav_listitem._twitter img {
   width: 40px;
 }
@@ -9824,15 +9814,7 @@ tagList
   }
 }
 
-.footerNav_link {
-  text-decoration: none;
-  color: var(--color-black);
-}
-.footerNav_list._main .footerNav_link {
-  display: inline-block;
-  position: relative;
-  font-weight: 500;
-}
+
 @media screen and (min-width: 768px) {
   .footerNav_list._main .footerNav_link {
     letter-spacing: 0.06em;
@@ -9851,25 +9833,8 @@ tagList
   -webkit-transition: width 0.3s;
   transition: width 0.3s;
 }
-.footerNav_list._main .footerNav_link:hover::after {
-  width: 100%;
-  left: 0;
-  right: auto;
-}
+
 .footerNav._sub .footerNav_link {
   font-size: 0.8125rem;
 }
-@media screen and (min-width: 768px) {
-  .footerNav._sub .footerNav_link {
-    font-size: 0.75rem;
-  }
-}
-@media (hover: hover) {
-  .footerNav._sub .footerNav_link {
-    -webkit-transition: opacity;
-    transition: opacity;
-  }
-  .footerNav._sub .footerNav_link:hover {
-    opacity: 0.6;
-  }
-}
+
