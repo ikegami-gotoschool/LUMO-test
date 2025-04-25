@@ -48,15 +48,11 @@
       <nav class="globalnav header_nav _pc">
         <ul class="globalnav_list">
           <li class="globalnav_listitem"><a href="<?php echo esc_url(home_url('/')); ?>about/" class="globalnav_link">LUMO+とは</a></li>
-          <li class="globalnav_listitem globalnav_list__sub"><a href="https://lumo-plus.jp/transition-support/"
-              class="globalnav_link">就労移行支援</a>
-            <div class="globalnav_list__sub__content">
-            </div>
-          </li>
+          <!-- <li class="globalnav_listitem globalnav_list__sub"><a href="https://lumo-plus.jp/transition-support/" class="globalnav_link">就労移行支援</a></li> -->
           <li class="globalnav_listitem"><a href="<?php echo esc_url(home_url('/')); ?>program/" class="globalnav_link">プログラム</a></li>
           <li class="globalnav_listitem"><a href="<?php echo esc_url(home_url('/')); ?>trial/" class="globalnav_link">見学と体験</a></li>
           <!-- <li class="globalnav_listitem"><a href="<?php echo esc_url(home_url('/')); ?>category/column/" class="globalnav_link">コラム</a></li> -->
-          <li class="globalnav_listitem"><a href="<?php echo esc_url(home_url('/')); ?>faq/" class="globalnav_link">よくある質問</a></li>
+          <li class="globalnav_listitem"><a href="<?php echo esc_url(home_url('/')); ?>primitive-reflex/" class="globalnav_link">原始反射</a></li>
         </ul>
         <ul class="globalnav_list _sub">
           <li class="globalnav_list"><a href="tel:03-6803-8223" class="globalnav_link _tel"> <span>TEL.</span>tel:03-6803-8223 </a></li>
