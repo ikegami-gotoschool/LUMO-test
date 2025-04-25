@@ -109,52 +109,107 @@
                   class="origin">ご相談はこちら</span></a></p>
           </div>
           <div class="section__remain__img">
-            <div class="section__remain__img__inner"><img class="img" src="img/question1.png" alt="">
+            <div class="section__remain__img__inner">
+              <img class="img" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/renovation/question1.png" alt="">
             </div>
             <div class="section__remain__triangle"></div>
-            <div class="section__remain__img__inner"><img class="img" src="img/question2.png" alt="">
+            <div class="section__remain__img__inner">
+              <img class="img" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/renovation/question2.png" alt="">
             </div>
             <div class="section__remain__triangle"></div>
-            <div class="section__remain__img__inner"><img class="img" src="img/question3.png" alt="">
+            <div class="section__remain__img__inner">
+              <img class="img" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/renovation/question3.png" alt="">
             </div>
           </div>
         </div>
       </div>
     </section>
-
-    <section class="section__program">
-      <h2 class="pageServiceAbout_heading heading _m _center _bar">運動を取り入れた独自のスキル特化型プログラム</h2>
-      <p class="p section__program__p">
-        LUMO＋は一人ひとりの特性に合わせてプログラムをカスタムできるカリキュラムを提供しています。まずは生活や通所をスムーズにするための運動、特性を引き起こしている可能性のある原始反射に着目したエクササイズを行い、働くためのカラダ・ココロづくりをします。その後に基礎・応用的なビジネススキルを習得できるもののほかに、デザインやイラストなどの専門的なプログラムを受講しながら、最適な就労を目指して働く力を身につけていきます。
-      </p>
-      <ol class="section__program__ol">
-
-
-        <li class="section__program__li">
-          <div class="section__program__li__title">
-            <div class="section__program__no">
-              <div class="section__program__no__program">program</div>
-              <div class="section__program__no__number">03</div>
-            </div>
-            <h3 class="section__program__h3">運動プログラム</h3>
+    <!-- --------------------原始反射残存のチェック方法-------------------- -->
+    <section class="section__remaincheck">
+      <h2 class="pageServiceAbout_heading heading _m _center _bar">原始反射残存のチェック方法</h2>
+      <p class="p section__remaincheck__p">原始反射は動作テストとチェックリストで残存を確認することができます。<br>
+        原始反射のチェック方法は医学的には確立していないことに注意が必要ですがご自身の発達の目安にしていただくことは可能だと考えています。</p>
+      <div class="section__remaincheck__wrappeer">
+        <h3 class="section__remaincheck__h3">手掌握反射</h3>
+        <div class="section__remaincheck__content">
+          <div class="section__remaincheck__text">
+            <p class="p">つまむ動作などの指の運動が苦手になりやすいため、ペン字やパソコン作業もゆっくりでミスが多くなる特性があります。<br>
+              学生時代に学習に対しての苦手意識を持っている方の中には掌握反射の残存があるケースが見られます。幼少期にハイハイが少なかった方はチェックが必要です。</p>
+            <ul class="section__remaincheck__ul">
+              <li class="check__li">字を書くことが苦手</li>
+              <li class="check__li">汚い鉛筆やお箸を正しく持てない</li>
+              <li class="check__li">手先が不器用で細かい作業が嫌い</li>
+              <li class="check__li">タイピングが苦手</li>
+            </ul>
           </div>
-          <div class="section__program__wrap">
-            <div class="section__program__img">
-              <img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/renovation/program3.JPG" alt="">
-            </div>
-            <div class="section__program__contents">
-              <h4 class="section__program__h4"><span class="orange">脳を刺激して</span>発達特性に<br>
-                アプローチする<br>
-                <span class="orange">医師監修</span>の運動プログラム。
-              </h4>
-              <p class="p">
-                pixiv社と共同開発したカリキュラムは、デザイナーやクリエイターのスキル習得を目指すコンテンツです。プロが実際に使用するツール「Abobe」のIllustratorやPhotoshopのインストール方法からスタートし、操作方法だけでなく、クリエイター技術の全体を動画解説付きで学ぶことができる教材でスキル習得をサポートします。
-              </p>
-            </div>
+          <div class="section__remaincheck__img">
+            <img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/renovation/remain1.png" alt="">
           </div>
-        </li>
-      </ol>
+        </div>
+      </div>
+      <div class="section__remaincheck__wrappeer">
+        <h3 class="section__remaincheck__h3">モロー反射</h3>
+        <div class="section__remaincheck__content">
+          <div class="section__remaincheck__text">
+            <p class="p">
+              歩行時の肘の様子で確認します。内股または外股で歩く時に、腕が動いてしまう場合は、残存度が高いです。モロー反射は感覚過敏や過緊張などの原因となる可能性があります。同じ環境でも集中力が散漫になってしまったりストレスを感じやすくなったりなどのトラブルが起こりやすくなります。
+            </p>
+            <ul class="section__remaincheck__ul">
+              <li class="check__li">新しい場所や初対面の人に会うことはとても疲れる</li>
+              <li class="check__li">突然の物音や大きな音で驚きやすい</li>
+              <li class="check__li">こだわりが強く感情的になりやすいと感じる</li>
+              <li class="check__li">決められたことを守るのが好き、または得意</li>
+            </ul>
+          </div>
+          <div class="section__remaincheck__img">
+            <img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/renovation/remain2.png" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="section__remaincheck__wrappeer">
+        <h3 class="section__remaincheck__h3">ATNR（非対称性緊張性頸反射）</h3>
+        <div class="section__remaincheck__content">
+          <div class="section__remaincheck__text">
+            <p class="p">
+              手と目の協調のための反射で、不器用または運動が苦手な方に多く残存しています。他にも「b」と「d」などの読み間違えなどの識字トラブルも多くお仕事でのケアレスミスの原因となっているケースもあります。身体の左右を使う運動を行うことで反射が緩和されます。
+            </p>
+            <ul class="section__remaincheck__ul">
+              <li class="check__li">文章を読むときの読み飛ばしや読み間違いが多い</li>
+              <li class="check__li">何かを言葉で説明(プレゼン)するのが苦手</li>
+              <li class="check__li">右と左がわからないことがある</li>
+              <li class="check__li">アイデアを紙に書いて説明できない</li>
+            </ul>
+          </div>
+          <div class="section__remaincheck__img">
+            <img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/renovation/remain3.png" alt="">
+          </div>
+        </div>
+      </div>
     </section>
+    <!-- -------------------------------原始反射理論の監修------------------------------- -->
+    <section class="section__doctor bg__green">
+      <h2 class="pageServiceAbout_heading heading _m _center _bar">原始反射理論の監修</h2>
+      <div class="section__doctor__wrapper">
+        <div class="section__doctor__text">
+          <div class="p">スクエアクリニック副院長<br>
+            医学博士</div>
+          <div class="section__doctor__name">本間 龍介</div>
+          <p class="p">
+            発達障がいや感覚過敏、メンタルの浮き沈みは脳幹の不調が原因である可能性があります。幼少期の運動や食生活が十分でないと、原始反射が残存したまま大人になって生活や仕事での困難を感じる方が増えています。LUMO＋の運動プログラムは、ココロとカラダを調えて快適な日常をサポートする新たなアプローチです。
+          </p>
+        </div>
+        <div class="section__doctor__img"><img class="img section__doctor__img__inner" src="img/honma.png"
+            alt=""></div>
+      </div>
+    </section>
+    <!-- -------------------------------cva------------------------------- -->
+    <div class="cva">
+      <h3 class="cva__h3">あなたの一歩をお待ちしています。</h3>
+      <p class="cva__p cta_button button _primary _bar _l js-button"><a href="https://lumo-plus.jp/contact/"
+          class="button_link"><span class="origin">ご相談はこちら</span></a></p>
+    </div>
+
+
 
     <!-- ---------------契約までの流れ--------------- -->
     <section class="section__contract">
