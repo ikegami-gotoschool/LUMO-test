@@ -159,8 +159,11 @@
                   施設内を自由に見学いただくことができます。安心して通所いただけるように、施設や将来のことなど、なんでもご相談ください。プログラムの詳細と併せて、ご説明いたします。
                 </p>
               </div>
-              <div class="section__image__img"><img class="img" src="img/image2.JPG" alt=""></div>
-              <div class="section__image__sub"><img class="image1" src="img/image2-1.png" alt="">
+              <div class="section__image__img">
+                <img class="img" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/renovation/image2.JPG" alt="">
+              </div>
+              <div class="section__image__sub">
+                <img class="img2" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/renovation/image2-1.png" alt="">
               </div>
             </div>
           </div>
@@ -178,8 +181,11 @@
                   通所前に、どのような支援があるのか、自宅から通所いただく際の経路についてなどを体感いただける3日間の体験プログラムがあります。
                 </p>
               </div>
-              <div class="section__image__img"><img class="img" src="img/image3.JPG" alt=""></div>
-              <div class="section__image__sub"><img class="image1" src="img/image3-1.png" alt="">
+              <div class="section__image__img">
+                <img class="img" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/renovation/image3.JPG" alt="">
+              </div>
+              <div class="section__image__sub">
+                <img class="img2" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/renovation/image3-1.png" alt="">
               </div>
             </div>
           </div>
@@ -197,8 +203,12 @@
                   施設見学と3Days体験プログラムを通じて、通所頻度やカリキュラムの構成などについて、私たちも利用者さまと今後のイメージを一緒に考えます。
                 </p>
               </div>
-              <div class="section__image__img"><img class="img" src="img/image4.JPG" alt=""></div>
-              <div class="section__image__sub"><img class="image1" src="img/image4-1.png" alt="">
+              <div class="section__image__img">
+                <img class="img" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/renovation/image4.JPG" alt="">
+              </div>
+              <div class="section__image__sub">
+                <img class="image1" src="img/image4-1.png" alt="">
+                <img class="img2" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/renovation/image4-1.png" alt="">
               </div>
             </div>
           </div>
@@ -216,7 +226,9 @@
                   受給者証を取得されている方は、すぐに通所いただけます。約1時間程度で完了することができます。
                 </p>
               </div>
-              <div class="section__image__img"><img class="img" src="img/image5.JPG" alt=""></div>
+              <div class="section__image__img">
+                <img class="img" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/renovation/image5.JPG" alt="">
+              </div>
             </div>
           </div>
         </li>
