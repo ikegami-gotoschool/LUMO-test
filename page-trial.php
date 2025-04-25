@@ -4,7 +4,7 @@
   <div class="mv _page pageAbout_mv pageAboutMv">
     <picture class="mv_thumbnail pageServiceMv">
       <source media="(max-width:768px)"
-        srcset="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/about/mv_img_sp.png">
+        srcset="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/about/mv_bg_sp.png">
       <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/about/mv_img.png"
         alt="ホワイトボードに文字を書いて就労支援について解説する女性">
     </picture>
