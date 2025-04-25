@@ -56,9 +56,9 @@
         </ul>
         <ul class="globalnav_list _sub">
           <li class="globalnav_list"><a href="tel:03-6803-8223" class="globalnav_link _tel"> <span>TEL.</span>tel:03-6803-8223 </a></li>
-          <li class="globalnav_list"><a href="<?php echo esc_url(home_url('/')); ?>franchise/" class="globalnav_link _arr">フランチャイズのご案内</a></li>
+          <!-- <li class="globalnav_list"><a href="<?php echo esc_url(home_url('/')); ?>franchise/" class="globalnav_link _arr">フランチャイズのご案内</a></li> -->
         </ul>
-             <p class="globalnav_cta js-button"><a href="<?php echo esc_url(home_url('/')); ?>contact/" class="globalnav_button "><span class="origin">お問い合わせはこちら</span></a></p>
+        <p class="globalnav_cta js-button"><a href="<?php echo esc_url(home_url('/')); ?>contact/" class="globalnav_button "><span class="origin">お問い合わせはこちら</span></a></p>
 
       </nav>
 
