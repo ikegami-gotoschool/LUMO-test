@@ -9691,9 +9691,5 @@ tagList
 
 
 .mv_thumbnail {
-  position: absolute;
-  width: 90.1333333333vw;
   max-width: 530px;
-  top: 0;
-  right: 0;
 }
