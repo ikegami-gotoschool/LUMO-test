@@ -488,26 +488,3 @@
 
 
 
-// 2025.04改修
-const stepSection = document.querySelector('.section__step');
-
-if (stepSection) {
-  const headers = stepSection.querySelectorAll('.accordion__header');
-
-  headers.forEach(header => {
-    header.addEventListener('click', () => {
-      const isActive = header.classList.contains('active');
-
-      // 全て閉じる（このセクション内のみ）
-      stepSection.querySelectorAll('.accordion__header').forEach(h => h.classList.remove('active'));
-      stepSection.querySelectorAll('.accordion__content').forEach(c => c.style.maxHeight = null);
-
-      // 開く
-      if (!isActive) {
-        header.classList.add('active');
-        const content = header.nextElementSibling;
-        content.style.maxHeight = content.scrollHeight + 'px';
-      }
-    });
-  });
-}

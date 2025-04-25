@@ -154,10 +154,9 @@ if (is_page('franchise')) { ?>
       </ul>
       <ul class="footerNav_list _main _sp">
         <li class="footerNav_listitem"><a href="<?php echo esc_url(home_url('/')); ?>about/" class="footerNav_link">LUMO+とは</a></li>
-        <li class="footerNav_listitem"><a href="<?php echo esc_url(home_url('/')); ?>flow/" class="footerNav_link">ご利用の流れ</a></li>
-        <li class="footerNav_listitem"><a href="<?php echo esc_url(home_url('/')); ?>transition-support/" class="footerNav_link">就労移行支援</a></li>
-        <li class="footerNav_listitem"><a href="<?php echo esc_url(home_url('/')); ?>faq/" class="footerNav_link">よくある質問</a></li>
-        <li class="footerNav_listitem"><a href="<?php echo esc_url(home_url('/')); ?>continuation-support/" class="footerNav_link">就労継続支援</a></li>
+        <li class="footerNav_listitem"><a href="<?php echo esc_url(home_url('/')); ?>program/" class="footerNav_link">プログラム</a></li>
+        <li class="footerNav_listitem"><a href="<?php echo esc_url(home_url('/')); ?>trial/" class="footerNav_link">見学と体験</a></li>
+        <li class="footerNav_listitem"><a href="<?php echo esc_url(home_url('/')); ?>primitive-reflex/" class="footerNav_link">原始反射</a></li>
         <li class="footerNav_listitem"><a href="<?php echo esc_url(home_url('/')); ?>contact/" class="footerNav_link">お問い合わせ</a></li>
       </ul>
     </nav>
