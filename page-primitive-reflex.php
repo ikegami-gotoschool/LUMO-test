@@ -27,48 +27,100 @@
   <div>
 
     <!-- /.pageAbout_lead -->
-
+    <!-- ------------------大人にも関係がある原始反射とは？------------------ -->
     <section class="section__primitive">
-                <h2 class="pageServiceAbout_heading heading _m _center _bar">大人にも関係がある原始反射とは？</h2>
-                <div class="section__primitive__wrap">
-                    <div class="section__primitive__text">
-                        原始反射とは、赤ちゃんが生きていくために無意識な運動をする反応のことです。発育発達で、必要な動作をしてくれますが、その過程で役目を終えて反応が少なくなってゆきます。しかし、近年の研究で原始反射が残存してしまう場合があることがわかってきています。LUMO＋では、その発達過程に着目して、プログラムを提供しています。
-                    </div>
-                    <div class="section__primitive__img">
-                      <img class="img" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/renovation/baby.jpeg" alt="">
-                    </div>
-                </div>
-            </section>
-            <section class="section__point">
-                <h2 class="section__point__h2">POINT</h2>
-                <div class="section__point__hold bg__green">
-                    <div class="section__point__warpper">
-                        <div class="section__point__img">
-                          <img class="img" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/renovation/point.png" alt="">
-                        </div>
-                        <div class="section__point__triangle"></div>
-                        <div class="section__point__contents">
-                            <div class="section__point__content">
-                                <h3 class="section__point__content__h3">脳幹</h3>
-                                <p class="section__point__content__p p">生きるために必要な動作を無意識に行う</p>
-                            </div>
-                            <div class="section__point__contents__center">
-                                <p class="section__point__contents__center__p p">２歳くらいまでに<br>
-                                    大脳中心の活動がスタートする</p>
-                                <div class="section__point__triangle2"></div>
-                            </div>
-                            <div class="section__point__content">
-                                <h3 class="section__point__content__h3">大脳</h3>
-                                <p class="section__point__content__p p">思考や運動、感情や感覚を<br>
-                                    コントロールし身体へ司令を送る</p>
-                            </div>
-                        </div>
-                    </div>
-                    <p class="p section__point__p">
-                        大脳は思考や運動など理知的な機能を司るのに対し、脳幹部は生存のための本能的な反射を司っています。そのため、まだ未成熟な子どもは脳幹が機能の大部分を担い、大人になるにつれて大脳へ機能をバトンタッチしていくのですが、この役割分担が上手くいかなかった際に原始反射が残存してしまうことがあります。
-                    </p>
-                </div>
-            </section>
+      <h2 class="pageServiceAbout_heading heading _m _center _bar">大人にも関係がある原始反射とは？</h2>
+      <div class="section__primitive__wrap">
+        <div class="section__primitive__text">
+          原始反射とは、赤ちゃんが生きていくために無意識な運動をする反応のことです。発育発達で、必要な動作をしてくれますが、その過程で役目を終えて反応が少なくなってゆきます。しかし、近年の研究で原始反射が残存してしまう場合があることがわかってきています。LUMO＋では、その発達過程に着目して、プログラムを提供しています。
+        </div>
+        <div class="section__primitive__img">
+          <img class="img" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/renovation/baby.jpeg" alt="">
+        </div>
+      </div>
+    </section>
+    <section class="section__point">
+      <h2 class="section__point__h2">POINT</h2>
+      <div class="section__point__hold bg__green">
+        <div class="section__point__warpper">
+          <div class="section__point__img">
+            <img class="img" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/renovation/point.png" alt="">
+          </div>
+          <div class="section__point__triangle"></div>
+          <div class="section__point__contents">
+            <div class="section__point__content">
+              <h3 class="section__point__content__h3">脳幹</h3>
+              <p class="section__point__content__p p">生きるために必要な動作を無意識に行う</p>
+            </div>
+            <div class="section__point__contents__center">
+              <p class="section__point__contents__center__p p">２歳くらいまでに<br>
+                大脳中心の活動がスタートする</p>
+              <div class="section__point__triangle2"></div>
+            </div>
+            <div class="section__point__content">
+              <h3 class="section__point__content__h3">大脳</h3>
+              <p class="section__point__content__p p">思考や運動、感情や感覚を<br>
+                コントロールし身体へ司令を送る</p>
+            </div>
+          </div>
+        </div>
+        <p class="p section__point__p">
+          大脳は思考や運動など理知的な機能を司るのに対し、脳幹部は生存のための本能的な反射を司っています。そのため、まだ未成熟な子どもは脳幹が機能の大部分を担い、大人になるにつれて大脳へ機能をバトンタッチしていくのですが、この役割分担が上手くいかなかった際に原始反射が残存してしまうことがあります。
+        </p>
+      </div>
+    </section>
+    <!-- ------------------「集中力」と「原始反射」の関係性について------------------ -->
+    <section class="section__trouble">
+      <h2 class="pageServiceAbout_heading heading _m _center _bar">「集中力」と「原始反射」の関係性について</h2>
+      <div class="section__trouble__wrap p">
+        <div class="section__trouble__text text1">蛍光灯が眩しい</div>
+        <div class="section__trouble__text text2">匂いに敏感である</div>
+        <div class="section__trouble__text text3">服のタグがチクチクする</div>
+        <div class="section__trouble__text text4">電車に乗ることがストレス</div>
+        <div class="section__trouble__text text5">音が気になって集中できない</div>
+        <div class="section__trouble__img">
+          <img class="img2" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/renovation/trouble.png" alt="">
+        </div>
+      </div>
+      <p class="section__trouble__p p">
+        原始反射が残存している場合に大人でも見られる特性の一つに感覚過敏というものがあります。これは外部からの刺激に対して極端に反応してしまうことで、脳が常に緊張しやすい特性をもちます。例えば、人と話すことや電車の音などさまざまな刺激がある環境で、とても疲労しイライラしやすくなる傾向などがあります。このように原始反射が残存することで、本人も気が付かないような「特性の引き金」を引いてしまう可能性があります。そこで私たちは、原始反射を調えることが特性にアプローチする一つの手段になると考えています。
+      </p>
+    </section>
+    <!-- ------------------どのようにして原始反射が残存するのか？------------------ -->
+    <section class="section__remain bg__green">
+      <div class="section__remain__question">
+        <div class="section__remain__question__inner">?</div>
+      </div>
+      <div class="section__remain__hold">
+        <h2 class="section__remain__h2">どのようにして<br>
+          原始反射が残存するのか？</h2>
+        <div class="section__remain__wrapper">
+          <div class="section__remain__text">
+            <p class="section__remain__p p mb1em">
+              原始反射が多く残ってしまう要因に、赤ちゃんの時に赤ちゃんらしい行動（運動）を充分に取っていなかったことが挙げられます。</p>
+            <p class="section__remain__p p mb1em">
+              赤ちゃんが生存する上で必要な機能である原始反射をたくさん使うことが発達の上では欠かせません。それが脳の発達を促す要因になるのです。</p>
+            <p class="section__remain__p p mb1em">近年の研究結果でも、原始反射と発達の関連性について研究された論文は多く発表されています。</p>
+            <p class="section__remain__p p mb1em">
+              LUMOでは長年培ってきたトレーニングの知識を活用し、原始反射の理論と掛け合わせて、特性へのアプローチを試みます。</p>
+            <p class="section__remain__p p mb1em">お困りごとやご興味がありましたら、ぜひ一度お問い合わせください。</p>
+            <p class="cta_button button _primary _bar _l js-button"><a
+                href="https://lumo-plus.jp/contact/" class="button_link"><span
+                  class="origin">ご相談はこちら</span></a></p>
+          </div>
+          <div class="section__remain__img">
+            <div class="section__remain__img__inner"><img class="img" src="img/question1.png" alt="">
+            </div>
+            <div class="section__remain__triangle"></div>
+            <div class="section__remain__img__inner"><img class="img" src="img/question2.png" alt="">
+            </div>
+            <div class="section__remain__triangle"></div>
+            <div class="section__remain__img__inner"><img class="img" src="img/question3.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <section class="section__program">
       <h2 class="pageServiceAbout_heading heading _m _center _bar">運動を取り入れた独自のスキル特化型プログラム</h2>
@@ -103,29 +155,6 @@
         </li>
       </ol>
     </section>
-    <!-- -------------------インタビュー------------------- -->
-    <section class="section__interview bg__green">
-      <h2 class="pageServiceAbout_heading heading _m _center _bar">ご利用者様へのインタビュー</h2>
-      <ul class="section__interview__ul">
-        <li class="section__interview__li">
-          <div class="section__interview__img">
-            <img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/renovation/interview1.JPG" alt="">
-          </div>
-          <div class="section__interview__messege">回り道だったけど、ポジティブな自分へ変わることができた。</div>
-          <div class="section__interview__name p">利用歴１０ヶ月橋本 さん（仮名）</div>
-        </li>
-        <li class="section__interview__li">
-          <div class="section__interview__img">
-            <img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/renovation/interview2.JPG" alt="">
-          </div>
-          <div class="section__interview__messege">踏み出した一歩が、自分の活かし方を見つけるきっかけに。</div>
-          <div class="section__interview__name p">利用歴１０ヶ月橋本 さん（仮名）</div>
-        </li>
-      </ul>
-      <p class="cta_button button _primary _bar _l js-button"><a href="https://lumo-plus.jp/contact/"
-          class="button_link"><span class="origin">ご相談はこちら</span></a></p>
-    </section>
-
 
     <!-- ---------------契約までの流れ--------------- -->
     <section class="section__contract">
