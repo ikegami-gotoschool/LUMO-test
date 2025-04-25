@@ -66,29 +66,9 @@
       <nav class="globalnav _sp header_spnav">
         <ul class="globalnav_list _sp">
           <li class="globalnav_listitem"><a href="<?php echo esc_url(home_url('/')); ?>about/" class="globalnav_link">LUMO+とは</a></li>
-          <li class="accordion__item globalnav_listitem">
-            <!--
-                  type="checkbox"、id="accordion-1"のinputタグと
-                  for="accordion-1"のlabelタグを用意する。
-                  checkboxにチェックが付いたことを検知して、
-                  アコーディオンの隠れている部分の高さを変える。
-                -->
-            <input type="checkbox" class="accordion__input" id="accordion-1">
-            <label class="accordion__head globalnav_link" for="accordion-1"><span class="subtitle _green">一般企業への就職支援が必要な方へ</span>就労移行支援</label>
-            <ul class="accordion__body">
-              <li class="globalnav_listitem__sp__li"><a class="globalnav_listitem__sp__a" href="<?php echo esc_url(home_url('/')); ?>transition-support/">LUMO＋の就労移行支援とは</a>
-              </li>
-              <li class="globalnav_listitem__sp__li"><a class="globalnav_listitem__sp__a" href="<?php echo esc_url(home_url('/')); ?>user/">こんな方が利用しています</a>
-              </li>
-              <li class="globalnav_listitem__sp__li"><a class="globalnav_listitem__sp__a" href="<?php echo esc_url(home_url('/')); ?>therapy/">LUMO＋の運動療法</a></li>
-              <li class="globalnav_listitem__sp__li"><a class="globalnav_listitem__sp__a" href="<?php echo esc_url(home_url('/')); ?>abeno/">事業所のご案内</a></li>
-              <li class="globalnav_listitem__sp__li"><a class="globalnav_listitem__sp__a" href="<?php echo esc_url(home_url('/')); ?>difference/">移行支援と継続支援</a></li>
-            </ul>
-          </li>
-          <li class="globalnav_listitem"><a href="<?php echo esc_url(home_url('/')); ?>continuation-support/" class="globalnav_link"><span class="subtitle _blue">障がいに理解のある職場で働きたい方へ</span>就労継続支援（A型）</a></li>
-          <li class="globalnav_listitem"><a href="<?php echo esc_url(home_url('/')); ?>flow/" class="globalnav_link">ご利用の流れ</a></li>
-          <li class="globalnav_listitem"><a href="<?php echo esc_url(home_url('/')); ?>faq/" class="globalnav_link">よくある質問</a></li>
-          <li class="globalnav_listitem"><a href="<?php echo esc_url(home_url('/')); ?>franchise/" class="globalnav_link">フランチャイズのご案内</a></li>
+          <li class="globalnav_listitem"><a href="<?php echo esc_url(home_url('/')); ?>program/" class="globalnav_link">プログラム</a></li>
+          <li class="globalnav_listitem"><a href="<?php echo esc_url(home_url('/')); ?>trial/" class="globalnav_link">見学と体験</a></li>
+          <li class="globalnav_listitem"><a href="<?php echo esc_url(home_url('/')); ?>primitive-reflex/" class="globalnav_link">原始反射</a></li>
         </ul>
         <div class="globalanv_ctalist">
           <ul class="cta_list ">
