@@ -9693,3 +9693,8 @@ tagList
 .mv_thumbnail {
   max-width: 530px;
 }
+@media screen and (min-width: 980px) {
+  .mv_thumbnail {
+    max-width: 90%;
+  }
+}
