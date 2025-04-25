@@ -198,8 +198,10 @@
             発達障がいや感覚過敏、メンタルの浮き沈みは脳幹の不調が原因である可能性があります。幼少期の運動や食生活が十分でないと、原始反射が残存したまま大人になって生活や仕事での困難を感じる方が増えています。LUMO＋の運動プログラムは、ココロとカラダを調えて快適な日常をサポートする新たなアプローチです。
           </p>
         </div>
-        <div class="section__doctor__img"><img class="img section__doctor__img__inner" src="img/honma.png"
-            alt=""></div>
+        <div class="section__doctor__img">
+          <img class="img section__doctor__img__inner" src="<?php echo get_template_directory_uri(); ?>/assets/img/renovation/honma.png" alt="">
+
+        </div>
       </div>
     </section>
     <!-- -------------------------------cva------------------------------- -->
