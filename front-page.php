@@ -121,7 +121,7 @@
 
               一人ひとりのペースに合わせてカスタムメイドされる、スキル特化プログラムで市場ニーズを満たす人材を目指します。</p>
             <p class="homeService_button _s button _green _bar js-button"><a href="" class="button_link"><span
-                  class="origin" style="font-size: 14px;">LUMO＋のプログラムはこちら</span></a></p>
+                  class="origin">プログラムはこちら</span></a></p>
           </div>
         </div>
             <div class="cva">
