@@ -53,7 +53,7 @@
               生活リズムを少しずつ整えて安定して通うことが就職の大きな一歩になります。日常的な運動を取り入れて生活リズムを整えながら、自己理解を深め、スキルアップを徹底的にサポートします。
             </p>
           </div>
-          <div class="section__usage__img">
+          <div class="section__usage__img img_credit">
             <img class="img" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/renovation/usage2.jpg" alt="">
           </div>
         </li>
@@ -98,7 +98,7 @@
           <div class="section__reason__title__sub">選ばれる理由01</div>
           <h3 class="section__reason__title__h3">長く働き続けるためのプログラム</h3>
         </div>
-        <div class="section__reason__img">
+        <div class="section__reason__img img_credit">
           <img class="img" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/renovation/reason1.jpg" alt="">
         </div>
         <div class="section__reason__contents bg__green">
@@ -148,7 +148,7 @@
           <div class="section__reason__title__sub">選ばれる理由02</div>
           <h3 class="section__reason__title__h3">医師監修の運動アプローチ</h3>
         </div>
-        <div class="section__reason__img">
+        <div class="section__reason__img img_credit2">
           <img class="img" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/renovation/reason2.jpg" alt="">
         </div>
         <div class="section__reason__2__contents bg__green">
@@ -246,7 +246,7 @@
         </div>
         <div class="section__reason__width section__reason__width__3">
           <div class="section__reason__3__wrap">
-            <div class="section__reason__3__img">
+            <div class="section__reason__3__img img_credit">
               <img class="img" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/renovation/reason3-1.jpg" alt="">
             </div>
             <div class="section__reason__3__inner">
