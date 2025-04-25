@@ -9719,56 +9719,12 @@ tagList
   }
 }
 
-@media screen and (min-width: 768px) {
-  .footerNav_list._main._pc {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-}
-@media screen and (min-width: 768px) {
-  .footerNav_list._sub {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    margin-left: 21px;
-    display: flex;
-    gap: 0 20px;
-  }
-}
-.footerNav_list._sub._sp {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 16px 20px;
-}
-
-@media screen and (min-width: 768px) {
-  .footerNav_list._sub._pc {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
-    padding-bottom: 6px;
-  }
-}
 /* 変更 */
 @media screen and (min-width: 768px) {
   .footerNav_list._main .footerNav_listitem {
     position: relative;
     padding-left: 4%;
     padding-right: 4%;
-  }
-  .footerNav_list._main .footerNav_listitem::after {
-    content: "";
-    display: block;
-    height: 13px;
-    width: 1px;
-    background: var(--color-divider);
-    position: absolute;
-    top: calc(50% - 7px);
-    right: 0;
   }
 }
 /* 変更 */
@@ -9778,63 +9734,16 @@ tagList
     padding-left: 6%;
     padding-right: 6%;
   }
-  .footerNav_list._main .footerNav_listitem::after {
-    content: "";
-    display: block;
-    height: 13px;
-    width: 1px;
-    background: var(--color-divider);
-    position: absolute;
-    top: calc(50% - 7px);
-    right: 0;
-  }
 }
 @media screen and (min-width: 768px) {
   .footerNav_list._main .footerNav_listitem:first-child {
     padding-left: 0;
   }
 }
-
-.footerNav_listitem._twitter img {
-  width: 40px;
-}
-@media screen and (max-width: 767px) {
-  .footerNav_listitem._twitter {
-    margin-top: 24px;
-  }
-}
+/* 変更 */
 @media screen and (min-width: 768px) {
-  .footerNav_listitem._twitter {
-    margin-bottom: -9px;
+  .footerNav_list._main .footerNav_listitem:last-child {
+    padding-right: 0;
   }
-}
-@media screen and (max-width: 767px) {
-  .footerNav_listitem._franchise {
-    margin-right: -20px;
-  }
-}
-
-
-@media screen and (min-width: 768px) {
-  .footerNav_list._main .footerNav_link {
-    letter-spacing: 0.06em;
-  }
-}
-.footerNav_list._main .footerNav_link::after {
-  content: "";
-  display: block;
-  height: 1px;
-  background: currentColor;
-  width: 0;
-  position: absolute;
-  bottom: 0;
-  left: auto;
-  right: 0;
-  -webkit-transition: width 0.3s;
-  transition: width 0.3s;
-}
-
-.footerNav._sub .footerNav_link {
-  font-size: 0.8125rem;
 }
 
