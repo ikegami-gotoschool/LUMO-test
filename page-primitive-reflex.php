@@ -10,8 +10,8 @@
     </picture>
 
     <div class="mv_content">
-      <h1 class="mv_heading" data-entitle="PROGRAMS">原始反射について</h1>
-      <p class="mv_subcopy">あなたに合わせたカスタムメイドのご支援</p>
+      <h1 class="mv_heading" data-entitle="PRIMITIVE REFLEX">原始反射について</h1>
+      <p class="mv_subcopy">運動を使ったプログラムの可能性</p>
     </div>
     <div class="mv_point _point1 pointbar">
       <div class="pointbar_bar _blue" data-bar1="64"></div>
@@ -28,7 +28,47 @@
 
     <!-- /.pageAbout_lead -->
 
-
+    <section class="section__primitive">
+                <h2 class="pageServiceAbout_heading heading _m _center _bar">大人にも関係がある原始反射とは？</h2>
+                <div class="section__primitive__wrap">
+                    <div class="section__primitive__text">
+                        原始反射とは、赤ちゃんが生きていくために無意識な運動をする反応のことです。発育発達で、必要な動作をしてくれますが、その過程で役目を終えて反応が少なくなってゆきます。しかし、近年の研究で原始反射が残存してしまう場合があることがわかってきています。LUMO＋では、その発達過程に着目して、プログラムを提供しています。
+                    </div>
+                    <div class="section__primitive__img">
+                      <img class="img" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/renovation/baby.jpeg" alt="">
+                    </div>
+                </div>
+            </section>
+            <section class="section__point">
+                <h2 class="section__point__h2">POINT</h2>
+                <div class="section__point__hold bg__green">
+                    <div class="section__point__warpper">
+                        <div class="section__point__img">
+                          <img class="img" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/renovation/point.png" alt="">
+                        </div>
+                        <div class="section__point__triangle"></div>
+                        <div class="section__point__contents">
+                            <div class="section__point__content">
+                                <h3 class="section__point__content__h3">脳幹</h3>
+                                <p class="section__point__content__p p">生きるために必要な動作を無意識に行う</p>
+                            </div>
+                            <div class="section__point__contents__center">
+                                <p class="section__point__contents__center__p p">２歳くらいまでに<br>
+                                    大脳中心の活動がスタートする</p>
+                                <div class="section__point__triangle2"></div>
+                            </div>
+                            <div class="section__point__content">
+                                <h3 class="section__point__content__h3">大脳</h3>
+                                <p class="section__point__content__p p">思考や運動、感情や感覚を<br>
+                                    コントロールし身体へ司令を送る</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="p section__point__p">
+                        大脳は思考や運動など理知的な機能を司るのに対し、脳幹部は生存のための本能的な反射を司っています。そのため、まだ未成熟な子どもは脳幹が機能の大部分を担い、大人になるにつれて大脳へ機能をバトンタッチしていくのですが、この役割分担が上手くいかなかった際に原始反射が残存してしまうことがあります。
+                    </p>
+                </div>
+            </section>
 
     <section class="section__program">
       <h2 class="pageServiceAbout_heading heading _m _center _bar">運動を取り入れた独自のスキル特化型プログラム</h2>
@@ -36,57 +76,8 @@
         LUMO＋は一人ひとりの特性に合わせてプログラムをカスタムできるカリキュラムを提供しています。まずは生活や通所をスムーズにするための運動、特性を引き起こしている可能性のある原始反射に着目したエクササイズを行い、働くためのカラダ・ココロづくりをします。その後に基礎・応用的なビジネススキルを習得できるもののほかに、デザインやイラストなどの専門的なプログラムを受講しながら、最適な就労を目指して働く力を身につけていきます。
       </p>
       <ol class="section__program__ol">
-        <li class="section__program__li">
-          <div class="section__program__li__title">
-            <div class="section__program__no">
-              <div class="section__program__no__program">program</div>
-              <div class="section__program__no__number">01</div>
-            </div>
-            <h3 class="section__program__h3">ビジネス基礎・応用スキル</h3>
-          </div>
-          <div class="section__program__wrap">
-            <div class="section__program__img">
-              <img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/renovation/program1.jpg" alt="">
-            </div>
-            <div class="section__program__contents">
-              <h4 class="section__program__h4"><span class="orange">基礎から</span>はじめる。<br>
-                <span class="orange">自信がつくまで</span>学ぶことが重要。
-              </h4>
-              <p class="p">一人ひとりのレベルに合わせてカリキュラムを作成します。プログラムは400種類を超え、資格の取得も可能です。<br>
-                「こんなに基礎から教えてくれるの？」と言っていただけるほど、就労支援ならではの手厚いサポートが特徴です。安心して学べる環境で、自信がつくまで一緒に伴走いたします。
-              </p>
-              <div class="section__program__skill">
-                <h5 class="section__program__h5">習得が可能なスキル</h5>
-                <p class="p">Excel 、Word、、PowerPoint、Access、Outlook、MOS取得、HTML、CSS、JavaScript</p>
-              </div>
-            </div>
-          </div>
-        </li>
-        <li class="section__program__li">
-          <div class="section__program__li__title">
-            <div class="section__program__no">
-              <div class="section__program__no__program">program</div>
-              <div class="section__program__no__number">02</div>
-            </div>
-            <h3 class="section__program__h3">専門スキル</h3>
-          </div>
-          <div class="section__program__wrap">
-            <div class="section__program__img">
-              <img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/renovation/program2.jpg" alt="">
-            </div>
-            <div class="section__program__contents">
-              <h4 class="section__program__h4"><span class="orange">pixiv社</span>と共同開発の<br>
-                プログラムで<br>
-                <span class="orange">クリエイタースキル</span>を。
-              </h4>
-              <p class="p">
-                pixiv社と共同開発したカリキュラムは、デザイナーやクリエイターのスキル習得を目指すコンテンツです。プロが実際に使用するツール「Abobe」のIllustratorやPhotoshopのインストール方法からスタートし、操作方法だけでなく、クリエイター技術の全体を動画解説付きで学ぶことができる教材でスキル習得をサポートします。
-              </p>
-              <!-- <p class="homeService_button _s button _green _bar js-button"><a href="" class="button_link"><span
-                                    class="origin" style="font-size: 14px;">開講記念対談記事へ</span></a></p> -->
-            </div>
-          </div>
-        </li>
+
+
         <li class="section__program__li">
           <div class="section__program__li__title">
             <div class="section__program__no">
