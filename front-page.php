@@ -50,10 +50,11 @@
         <p class="mv_copy _sub">
           <picture>
             <source media="(max-width:768px)" srcset="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/home/mv_copy02_sp.svg">
-            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/home/mv_copy02.svg" alt="「できる」を増やして、自分らしく働けるように" width="441" height="98">
+            <!-- <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/home/mv_copy02.svg" alt="「できる」を増やして、自分らしく働けるように" width="441" height="98"> -->
+            <div class="frontmessege">カラダ・アタマ・ココロを調え、自分らしいスキルを身につける。</div>
           </picture>
         </p>
-        <p class="mv_text text">LUMO+は、ひとりひとりの「できるを増やす」をテーマにした就労支援施設です。<br>就職に役立つ実用的なスキルから、メンタルを含めた体調管理方法まで学べるプログラムを通してできることを増やし、自分らしく働ける状態に導きます。また、障がいに理解のある職場で働く機会も提供しています。</p>
+        <p class="mv_text text">LUMO+は、運動プログラムでコンディションを改善しながら、実用的なスキルを1から習得できる就労移行支援施設です。一人ひとりに合ったペースで、ゼロからスキルを身につけられるようにサポートします。太陽光いっぱいのあたたかなフロアで、あなたの一歩目をお待ちしております。</p>
         <p class="homeMv_button button _green _s _bar js-button"><a href="<?php echo esc_url(home_url('/')); ?>about/" class="button_link"><span class="origin">詳しく見る</span></a></p>
       </div>
     </div>
