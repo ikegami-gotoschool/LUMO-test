@@ -84,7 +84,7 @@
       <div class="cva">
         <h3 class="cva__h3">あなたの一歩をお待ちしています。</h3>
         <p class="cva__p cta_button button _primary _bar _l js-button"><a
-            href="https://lumo-plus.jp/contact/" class="button_link"><span
+            href="<?php echo esc_url(home_url('/')); ?>contact/" class="button_link"><span
               class="origin">ご相談はこちら</span></a></p>
       </div>
     </section>
@@ -139,7 +139,7 @@
         <div class="cva">
           <h3 class="cva__h3">あなたの一歩をお待ちしています。</h3>
           <p class="cva__p cta_button button _primary _bar _l js-button"><a
-              href="https://lumo-plus.jp/contact/" class="button_link"><span
+              href="<?php echo esc_url(home_url('/')); ?>contact/" class="button_link"><span
                 class="origin">ご相談はこちら</span></a></p>
         </div>
       </div>
