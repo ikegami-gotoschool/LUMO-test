@@ -148,7 +148,6 @@ if (is_page('franchise')) { ?>
         <li class="footerNav_listitem"><a href="<?php echo esc_url(home_url('/')); ?>program/" class="footerNav_link">プログラム</a></li>
         <li class="footerNav_listitem"><a href="<?php echo esc_url(home_url('/')); ?>trial/" class="footerNav_link">見学と体験</a></li>
         <li class="footerNav_listitem"><a href="<?php echo esc_url(home_url('/')); ?>primitive-reflex/" class="footerNav_link">原始反射</a></li>
-        <li class="footerNav_listitem"><a href="<?php echo esc_url(home_url('/')); ?>faq/" class="footerNav_link">よくある質問</a></li>
         <!-- <li class="footerNav_listitem"><a href="<?php echo esc_url(home_url('/')); ?>franchise/" class="footerNav_link">フランチャイズのご案内</a></li> -->
         <li class="footerNav_listitem"><a href="https://gotoschool.co.jp/recruit/" target="_blank" class="footerNav_link">採用情報</a></li>
       </ul>
