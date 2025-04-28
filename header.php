@@ -55,7 +55,7 @@
           <li class="globalnav_listitem"><a href="<?php echo esc_url(home_url('/')); ?>primitive-reflex/" class="globalnav_link">原始反射</a></li>
         </ul>
         <ul class="globalnav_list _sub">
-          <li class="globalnav_list"><a href="tel:03-6803-8223" class="globalnav_link _tel"> <span>TEL.</span>tel:03-6803-8223 </a></li>
+          <li class="globalnav_list"><a href="tel:06-6770-5283" class="globalnav_link _tel"> <span>TEL.</span>tel:06-6770-5283 </a></li>
           <!-- <li class="globalnav_list"><a href="<?php echo esc_url(home_url('/')); ?>franchise/" class="globalnav_link _arr">フランチャイズのご案内</a></li> -->
         </ul>
         <p class="globalnav_cta js-button"><a href="<?php echo esc_url(home_url('/')); ?>contact/" class="globalnav_button "><span class="origin">お問い合わせはこちら</span></a></p>
@@ -82,7 +82,7 @@
               <a href="tel:03-6803-8223" class="cta_link">
                 <span class="origin">
                   <span class="cta_teltext">お電話でのご相談</span>
-                  <span class="cta_telnum">03-6803-8223</span>
+                  <span class="cta_telnum">06-6770-5283</span>
                   <span class="cta_telnote">10:00〜16:00（月〜土）</span>
                 </span>
               </a>
