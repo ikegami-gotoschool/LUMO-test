@@ -167,6 +167,7 @@ if (is_page('franchise')) { ?>
           <li class="footerNav_listitem"><a href="<?php echo esc_url(home_url('/')); ?>contact/" class="footerNav_link">お問い合わせ</a></li>
           <li class="footerNav_listitem"><a href="https://gotoschool.co.jp/privacypolicy/" target="_blank" class="footerNav_link">プライバシーポリシー</a></li>
           <li class="footerNav_listitem _twitter"><a href="https://twitter.com/lumo_plus_abeno" target="_blank" class="footerNav_link"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/common/icon_twitter.svg" alt="Twitter" width="31" height="30"></a></li>
+          <li class="footerNav_listitem _twitter"><a href="https://twitter.com/lumo_plus_abeno" target="_blank" class="footerNav_link"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/common/icon_twitter.svg" alt="Twitter"></a></li>
         </ul>
         <ul class="footerNav_list _sub _sp">
           <li class="footerNav_listitem"><a href="https://gotoschool.co.jp/recruit/" class="footerNav_link" target="_blank">採用情報</a></li>
@@ -174,6 +175,7 @@ if (is_page('franchise')) { ?>
           <li class="footerNav_listitem"><a href="https://gotoschool.co.jp/" class="footerNav_link" target="_blank">運営会社</a></li>
           <li class="footerNav_listitem"><a href="https://gotoschool.co.jp/privacypolicy/" class="footerNav_link" target="_blank">プライバシーポリシー</a></li>
           <li class="footerNav_listitem _twitter"><a href="https://twitter.com/lumo_plus_abeno" class="footerNav_link" target="_blank"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/common/icon_twitter.svg" alt="Twitter" width="31" height="30"></a></li>
+          <li class="footerNav_listitem _twitter"><a href="https://twitter.com/lumo_plus_abeno" class="footerNav_link" target="_blank"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/common/icon_twitter.svg" alt="Twitter"></a></li>
         </ul>
       </nav>
       <p class="footer_copyright">©<a href="https://gotoschool.co.jp/" target="_blank">Gotoschool inc.</a> All rights reserved.</p>
