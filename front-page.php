@@ -121,7 +121,7 @@
               LUMO+はカラダを調える医師監修の運動プログラムのほか、400種類以上の多種多様なビジネス基礎スキルを習得できる講座、国内最大級の作品コミュニケーションサービスを展開するpixiv株式会社と共同開発したデザインやイラストや動画制作などが学べるカリキュラムの3プログラムであなたの就労をサポートします。
 
               一人ひとりのペースに合わせてカスタムメイドされる、スキル特化プログラムで市場ニーズを満たす人材を目指します。</p>
-            <p class="homeService_button _s button _green _bar js-button"><a href="" class="button_link"><span
+            <p class="homeService_button _s button _green _bar js-button"><a href="<?php echo esc_url(home_url('/')); ?>program/" class="button_link"><span
                   class="origin">プログラムはこちら</span></a></p>
           </div>
         </div>
