@@ -130,14 +130,14 @@
       <p class="p section__remaincheck__p">原始反射は動作テストとチェックリストで残存を確認することができます。<br>
         原始反射のチェック方法は医学的には確立していないことに注意が必要ですがご自身の発達の目安にしていただくことは可能だと考えています。</p>
       <div class="section__remaincheck__wrappeer">
-        <h3 class="section__remaincheck__h3">手掌握反射</h3>
+        <h3 class="section__remaincheck__h3">手掌把握反射</h3>
         <div class="section__remaincheck__content">
           <div class="section__remaincheck__text">
             <p class="p">つまむ動作などの指の運動が苦手になりやすいため、ペン字やパソコン作業もゆっくりでミスが多くなる特性があります。<br>
               学生時代に学習に対しての苦手意識を持っている方の中には掌握反射の残存があるケースが見られます。幼少期にハイハイが少なかった方はチェックが必要です。</p>
             <ul class="section__remaincheck__ul">
               <li class="check__li">字を書くことが苦手</li>
-              <li class="check__li">汚い鉛筆やお箸を正しく持てない</li>
+              <li class="check__li">鉛筆やお箸を正しく持てない</li>
               <li class="check__li">手先が不器用で細かい作業が嫌い</li>
               <li class="check__li">タイピングが苦手</li>
             </ul>
