@@ -69,6 +69,7 @@
           <li class="globalnav_listitem"><a href="<?php echo esc_url(home_url('/')); ?>program/" class="globalnav_link">プログラム</a></li>
           <li class="globalnav_listitem"><a href="<?php echo esc_url(home_url('/')); ?>trial/" class="globalnav_link">見学と体験</a></li>
           <li class="globalnav_listitem"><a href="<?php echo esc_url(home_url('/')); ?>primitive-reflex/" class="globalnav_link">原始反射</a></li>
+          <li class="globalnav_listitem"><a href="<?php echo esc_url(home_url('/')); ?>primitive-reflex/" class="globalnav_link">お問い合わせ</a></li>
         </ul>
         <div class="globalanv_ctalist">
           <ul class="cta_list ">
