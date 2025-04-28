@@ -79,11 +79,11 @@
               <a href="https://lin.ee/VSoAYK3" target="_blank" class="cta_link"><span class="origin">LINEでのご相談</span></a>
             </li>
             <li class="cta_listitem _tel">
-              <a href="tel:03-6803-8223" class="cta_link">
+              <a href="tel:06-6770-5283" class="cta_link">
                 <span class="origin">
                   <span class="cta_teltext">お電話でのご相談</span>
                   <span class="cta_telnum">06-6770-5283</span>
-                  <span class="cta_telnote">10:00〜16:00（月〜土）</span>
+                  <span class="cta_telnote">10:00〜18:00（月〜土）</span>
                 </span>
               </a>
             </li>
