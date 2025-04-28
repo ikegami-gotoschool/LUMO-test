@@ -77,7 +77,7 @@
             </p>
           </div>
           <div class="section__usage__img">
-            <img class="img" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/renovation/usage4.JPG" alt="">
+            <img class="img" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/renovation/usage4.jpg" alt="">
           </div>
         </li>
       </ol>
