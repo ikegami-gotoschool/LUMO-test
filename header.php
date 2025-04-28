@@ -71,8 +71,10 @@
           <li class="globalnav_listitem"><a href="<?php echo esc_url(home_url('/')); ?>primitive-reflex/" class="globalnav_link">原始反射</a></li>
         </ul>
         <!-- 2025/04改修エリア -->
-        <p class="cva__p cta_button button _primary _bar _l js-button"><a href="<?php echo esc_url(home_url('/')); ?>contact/"
-            class="button_link"><span class="origin">ご相談はこちら</span></a></p>
+        <div class="sp__nav__cva">
+          <p class="cva__p cta_button button _primary _bar _l js-button"><a href="<?php echo esc_url(home_url('/')); ?>contact/"
+              class="button_link"><span class="origin">ご相談はこちら</span></a></p>
+        </div>
         <!-- 2025/04改修エリアここまで -->
         <div class="globalanv_ctalist">
           <ul class="cta_list ">
