@@ -1,0 +1,290 @@
+/* トークセッション */
+
+.br30{
+    border-radius: 20px;
+}
+.h2mb{
+    margin-bottom: 40px;
+}
+.relative{
+    position: relative;
+}
+.interview__point{
+    right: 0;
+    bottom: 0;
+}
+.interview__point1{
+    left: 10px;
+    top: 120px;
+}
+.interview__point2{
+    right: 10px;
+    top: 40px;
+}
+
+@media(max-width:540px){
+    .interview__point1{
+        display: none !important;
+    }
+    .interview__point2{
+        display: none !important;
+    }
+}
+
+
+.section__special{
+    padding: 0 20px 100px;
+    max-width: 1160px;
+    margin: 0 auto;
+}
+.interview__top__img{
+    width: 100%;
+    aspect-ratio: 5 / 3;
+}
+.section__special__content{
+    max-width: 740px;
+    margin: -100px auto 40px;
+    padding: 40px 20px;
+    background-color: #fff;
+    border-radius: 30px;
+    position: relative;
+    z-index: 20;
+}
+.section__special__h3{
+    font-size: 36px;
+    text-align: center;
+    line-height: 2em;
+    margin-bottom: 12px;
+}
+.section__special__p{
+    line-height: 2em;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.interview__ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+.interview__li{
+    display: flex;
+    gap: 20px;
+    background-color: #f8f8f8;
+    padding: 20px;
+    max-width: 840px;
+    justify-content: center;
+}
+.section__special__li__img{
+    width: 200px;
+    height: 200px;
+    flex-shrink: 0;
+}
+.section__special__li__content{
+    max-width: 540px;
+}
+.section__special__li__h4{
+    font-size: 28px;
+}
+.section__special__li__profile{
+    font-size: 14px;
+    line-height: 2em;
+}
+.section__special__p{
+    font-size: 16px;
+    line-height: 2em;
+}
+.section__special__thema{
+    background-color: #f8f8f8;
+    width: 100%;
+    max-width: 800px;
+    margin: 24px auto 0;
+    padding: 40px 20px;
+}
+.section__special__thema__h4{
+    font-size: 24px;
+    text-align: center;
+}
+.section__special__thema__line{
+    width: 150px;
+    height: 3px;
+    background-color: #b5b5b5;
+    margin: 16px auto 32px;
+}
+.section__special__thema__ul{
+    font-size: 20px;
+    line-height: 2em;
+    max-width: 600px;
+    margin: 0 auto;
+    padding-left: 20px;
+    list-style: disc;
+}
+@media(max-width:800px){
+    .section__special{
+        padding: 0 20px 60px;
+    }
+    .section__special__content{
+        margin: -40px auto 20px;
+        padding: 40px 20px 20px;
+        background-color: #fff;
+        border-radius: 20px;
+        position: relative;
+        z-index: 20;
+    }
+    .section__special__h3{
+        font-size: 24px;
+        margin-bottom: 12px;
+    }
+    .interview__li{
+        display: flex;
+        gap: 20px;
+        padding: 20px;
+        max-width: 840px;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* 吉田清治さんについて */
+.section__seji{
+    background-color: #EBFDE5;
+    padding: 80px 20px 0;
+}
+.interview{
+    background-color: #fff;
+    max-width: 1120px;
+    margin: 0 auto;
+    overflow: auto;
+}
+.interviewMessage{
+    display: flex;
+    gap: 20px;
+    max-width: 880px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+.interviewIcon{
+    width: 80px;
+}
+.interviewIcon__img{
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+}
+.interviewIcon__name{
+    font-size: 14px;
+    text-align: center;
+}
+.interviewMessage__p{
+    font-size: 16px;
+    line-height: 2em;
+    max-width: 740px;
+}
+.underline{
+    text-decoration: underline;
+    text-decoration-color: #2D9BFF;
+    text-decoration-thickness: 3px;
+    font-weight: 600;
+}
+.interview__flex{
+    display: flex;
+}
+.interview__flex-reverse{
+    flex-direction: row-reverse;
+}
+.interview__flex-m40{
+    margin-top: -40px;
+}
+.interviewM40{
+    margin-top: 40px;
+}
+.halfImg{
+    width: 50%;
+    height: 700px;
+    flex-shrink: 0;
+}
+.interviewMessage__p-half{
+    max-width: 300px;
+}
+.interview__img{
+    width: 100%;
+    aspect-ratio: 5 / 3;
+}
+
+
+@media(max-width:800px){
+    .section__seji{
+        padding: 60px 20px 0;
+    }
+    .interview__flex{
+        display: flex;
+        display: block;
+    }
+    .halfImg{
+        width: 100%;
+        aspect-ratio: 4 / 5;
+        height: auto;
+    }
+    .interviewMessage__p-half{
+        max-width: 740px;
+    }
+    .interview__flex-m40{
+        margin-top: 0;
+    }
+}
+
+/* note */
+.interview__note{
+    margin: 0 auto;
+    max-width: 500px;
+    padding: 0 20px;
+}
+
+
+
+/* ページ内に複数ページ */
+  .interview__article {
+    width: 100%;
+    margin-top: 60px;
+  }
+  @media(max-width:800px){
+    .interview__article{
+        margin-top: 40px;
+    }
+}
+  
+  .interview__pagination {
+    background-color: #EBFDE5;
+    padding: 0 20px 30px;
+  }
+  .interview__pagination__wrapper{
+    background-color: #fff;
+    text-align: center;
+    margin: 0 auto ;
+    padding: 40px 0;
+    max-width: 1120px;
+  }
+  
+  .interview__pagination button {
+    margin: 0 5px;
+    padding: 0 14px;
+    height: 40px;
+    font-size: 16px;
+    line-height: 40px;
+    border: 1px solid #A1E01D;
+    background-color: #fff;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .interview__pagination button:hover {
+    background-color: #eee;
+  }
+  
+  .interview__pagination button.active {
+    background-color: #A1E01D;
+    color: #fff;
+    font-weight: bold;
+    border-color: #A1E01D;
+  }

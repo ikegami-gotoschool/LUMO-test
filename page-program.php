@@ -82,6 +82,8 @@
               <p class="p">
                 pixiv社と共同開発したカリキュラムは、デザイナーやクリエイターのスキル習得を目指すコンテンツです。プロが実際に使用するツール「Abobe」のIllustratorやPhotoshopのインストール方法からスタートし、操作方法だけでなく、クリエイター技術の全体を動画解説付きで学ぶことができる教材でスキル習得をサポートします。
               </p>
+              <p class="homeService_button _s button _green _bar js-button"><a href="<?php echo esc_url(home_url('/')); ?>special/" class="button_link"><span
+              class="origin">開講記念対談記事へ</span></a></p>
               <!-- <p class="homeService_button _s button _green _bar js-button"><a href="" class="button_link"><span
                                     class="origin" style="font-size: 14px;">開講記念対談記事へ</span></a></p> -->
             </div>
@@ -104,7 +106,9 @@
                 アプローチする<br>
                 <span class="orange">医師監修</span>の運動プログラム。
               </h4>
-              <p class="p">pixiv社と共同開発したカリキュラムは、デザイナーやクリエイターのスキル習得を目指すコンテンツです。プロが実際に使用するツール「Abobe」のIllustratorやPhotoshopのインストール方法からスタートし、操作方法だけでなく、クリエイター技術の全体を動画解説付きで学ぶことができる教材でスキル習得をサポートします。</p>
+              <p class="p">
+                pixiv社と共同開発したカリキュラムは、デザイナーやクリエイターのスキル習得を目指すコンテンツです。プロが実際に使用するツール「Abobe」のIllustratorやPhotoshopのインストール方法からスタートし、操作方法だけでなく、クリエイター技術の全体を動画解説付きで学ぶことができる教材でスキル習得をサポートします。
+              </p>
             </div>
           </div>
         </li>
