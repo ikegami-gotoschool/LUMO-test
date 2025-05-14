@@ -109,7 +109,7 @@
       </section>
       <!-- インタビューページスタートend -->
       <!-- 吉田誠治さんについて -->
-      <section class="section__seji">
+      <section class="section__seji" id="jump1">
         <h2 class="pageServiceAbout_heading heading _m _center _bar h2mb">イラストレーター<br>吉田誠治さんについて</h2>
         <div class="interview">
           <div class="interviewMessage">
@@ -271,7 +271,7 @@
 
     <div class="interview__article interview__article--page2" style="display: none;">
       <!-- ２ページ目 -->
-      <section class="section__seji">
+      <section class="section__seji" id="jump2">
         <h2 class="pageServiceAbout_heading heading _m _center _bar h2mb">発達検査でわかった特性と<br>その向き合い方とは</h2>
         <div class="interview">
           <div class="interview__img"><img class="img" img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/interview/top2.jpg" alt="">
@@ -489,7 +489,7 @@
 
     <div class="interview__article interview__article--page3" style="display: none;">
       <!-- 3ページ目 -->
-      <section class="section__seji">
+      <section class="section__seji" id="jump3">
         <h2 class="pageServiceAbout_heading heading _m _center _bar h2mb">クリエイター養成講座について</h2>
         <div class="interview">
           <div class="interview__img"><img class="img" img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/interview/top3.jpg" alt="">
